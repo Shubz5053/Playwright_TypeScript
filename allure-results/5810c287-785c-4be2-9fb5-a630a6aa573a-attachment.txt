@@ -1,0 +1,170 @@
+❌ Error applying for Job 3: ExpectError: expect(locator).toContainText(expected) failed
+
+Locator: locator('div[class=\'job-title-text\']')
+Expected substring: "Applied to"
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+  - Expect "toContainText" with timeout 5000ms
+  - waiting for locator('div[class=\'job-title-text\']')
+
+    at D:\Playwright\src\tests\c_applyJobs.spec.ts:21:70 {
+  matcherResult: {
+    name: 'toContainText',
+    expected: 'Applied to',
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mlocator\x1B[39m\x1B[2m).\x1B[22mtoContainText\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m)\x1B[22m failed\n' +
+      '\n' +
+      "Locator: locator('div[class=\\'job-title-text\\']')\n" +
+      'Expected substring: \x1B[32m"Applied to"\x1B[39m\n' +
+      'Timeout: 5000ms\n' +
+      'Error: element(s) not found\n' +
+      '\n' +
+      'Call log:\n' +
+      '\x1B[2m  - Expect "toContainText" with timeout 5000ms\x1B[22m\n' +
+      "\x1B[2m  - waiting for locator('div[class=\\'job-title-text\\']')\x1B[22m\n",
+    pass: false,
+    actual: undefined,
+    log: [
+      '  - Expect "toContainText" with timeout 5000ms',
+      "  - waiting for locator('div[class=\\'job-title-text\\']')"
+    ],
+    timeout: 5000
+  },
+  Symbol(step): {
+    category: 'expect',
+    apiName: 'expect.toContainText',
+    title: `Expect "toContainText" locator('div[class=\\'job-title-text\\']')`,
+    shortTitle: 'Expect "toContainText"',
+    params: { expected: 'Applied to' },
+    infectParentStepsWithError: undefined,
+    stepId: 'expect@55',
+    group: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'D:\\Playwright\\src\\tests\\c_applyJobs.spec.ts',
+      line: 21,
+      column: 70
+    },
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'expect@55',
+      _title: `Expect "toContainText" locator('div[class=\\'job-title-text\\']')`,
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1784230389264,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mlocator\x1B[39m\x1B[2m).\x1B[22mtoContainText\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m)\x1B[22m failed\n' +
+        '\n' +
+        "Locator: locator('div[class=\\'job-title-text\\']')\n" +
+        'Expected substring: \x1B[32m"Applied to"\x1B[39m\n' +
+        'Timeout: 5000ms\n' +
+        'Error: element(s) not found\n' +
+        '\n' +
+        'Call log:\n' +
+        '\x1B[2m  - Expect "toContainText" with timeout 5000ms\x1B[22m\n' +
+        "\x1B[2m  - waiting for locator('div[class=\\'job-title-text\\']')\x1B[22m\n",
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mlocator\x1B[39m\x1B[2m).\x1B[22mtoContainText\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m)\x1B[22m failed\n' +
+        '\n' +
+        "Locator: locator('div[class=\\'job-title-text\\']')\n" +
+        'Expected substring: \x1B[32m"Applied to"\x1B[39m\n' +
+        'Timeout: 5000ms\n' +
+        'Error: element(s) not found\n' +
+        '\n' +
+        'Call log:\n' +
+        '\x1B[2m  - Expect "toContainText" with timeout 5000ms\x1B[22m\n' +
+        "\x1B[2m  - waiting for locator('div[class=\\'job-title-text\\']')\x1B[22m\n" +
+        '\n' +
+        '    at D:\\Playwright\\src\\tests\\c_applyJobs.spec.ts:21:70',
+      cause: undefined
+    }
+  }
+}
+❌ Error applying for Job 4: ExpectError: expect(locator).toContainText(expected) failed
+
+Locator: locator('div[class=\'job-title-text\']')
+Expected substring: "Applied to"
+Error: element(s) not found
+
+Call log:
+  - Expect "toContainText" with timeout 5000ms
+  - waiting for locator('div[class=\'job-title-text\']')
+
+    at D:\Playwright\src\tests\c_applyJobs.spec.ts:21:70 {
+  matcherResult: {
+    name: 'toContainText',
+    expected: 'Applied to',
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mlocator\x1B[39m\x1B[2m).\x1B[22mtoContainText\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m)\x1B[22m failed\n' +
+      '\n' +
+      "Locator: locator('div[class=\\'job-title-text\\']')\n" +
+      'Expected substring: \x1B[32m"Applied to"\x1B[39m\n' +
+      'Error: element(s) not found\n' +
+      '\n' +
+      'Call log:\n' +
+      '\x1B[2m  - Expect "toContainText" with timeout 5000ms\x1B[22m\n' +
+      "\x1B[2m  - waiting for locator('div[class=\\'job-title-text\\']')\x1B[22m\n",
+    pass: false,
+    actual: undefined,
+    log: [
+      '  - Expect "toContainText" with timeout 5000ms',
+      "  - waiting for locator('div[class=\\'job-title-text\\']')"
+    ],
+    timeout: undefined
+  },
+  Symbol(step): {
+    category: 'expect',
+    apiName: 'expect.toContainText',
+    title: `Expect "toContainText" locator('div[class=\\'job-title-text\\']')`,
+    shortTitle: 'Expect "toContainText"',
+    params: { expected: 'Applied to' },
+    infectParentStepsWithError: undefined,
+    stepId: 'expect@63',
+    group: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'D:\\Playwright\\src\\tests\\c_applyJobs.spec.ts',
+      line: 21,
+      column: 70
+    },
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'expect@63',
+      _title: `Expect "toContainText" locator('div[class=\\'job-title-text\\']')`,
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1784230400690,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mlocator\x1B[39m\x1B[2m).\x1B[22mtoContainText\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m)\x1B[22m failed\n' +
+        '\n' +
+        "Locator: locator('div[class=\\'job-title-text\\']')\n" +
+        'Expected substring: \x1B[32m"Applied to"\x1B[39m\n' +
+        'Error: element(s) not found\n' +
+        '\n' +
+        'Call log:\n' +
+        '\x1B[2m  - Expect "toContainText" with timeout 5000ms\x1B[22m\n' +
+        "\x1B[2m  - waiting for locator('div[class=\\'job-title-text\\']')\x1B[22m\n",
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mlocator\x1B[39m\x1B[2m).\x1B[22mtoContainText\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m)\x1B[22m failed\n' +
+        '\n' +
+        "Locator: locator('div[class=\\'job-title-text\\']')\n" +
+        'Expected substring: \x1B[32m"Applied to"\x1B[39m\n' +
+        'Error: element(s) not found\n' +
+        '\n' +
+        'Call log:\n' +
+        '\x1B[2m  - Expect "toContainText" with timeout 5000ms\x1B[22m\n' +
+        "\x1B[2m  - waiting for locator('div[class=\\'job-title-text\\']')\x1B[22m\n" +
+        '\n' +
+        '    at D:\\Playwright\\src\\tests\\c_applyJobs.spec.ts:21:70',
+      cause: undefined
+    }
+  }
+}

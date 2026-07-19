@@ -1,0 +1,58 @@
+Total Jobs : 20
+❌ Job 1 Please Apply Manually
+❌ Job 2 Please Apply Manually
+✅ Job 3 Applied Successfully
+✅ Job 5 Applied Successfully
+✅ Job 6 Applied Successfully
+❌ Job 8 Please Apply Manually
+✅ Job 10 Applied Successfully
+❌ Job 11 Please Apply Manually
+❌ Job 13 Please Apply Manually
+❌ Job 14 Please Apply Manually
+Error on Job 20 locator.textContent: Test timeout of 120000ms exceeded.
+Call log:
+  - waiting for locator('xpath=(//button[@id=\'company-site-button\'])[1]')
+
+    at D:\Playwright\src\tests\c_applyJobs.spec.ts:21:40 {
+  Symbol(step): {
+    location: {
+      file: 'D:\\Playwright\\src\\tests\\c_applyJobs.spec.ts',
+      line: 21,
+      column: 40
+    },
+    category: 'pw:api',
+    title: "Get text content locator('xpath=(//button[@id=\\'company-site-button\\'])[1]')",
+    apiName: 'locator.textContent',
+    params: {
+      selector: "(//button[@id='company-site-button'])[1]",
+      strict: true,
+      timeout: 0
+    },
+    group: 'getter',
+    stepId: 'pw:api@224',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@224',
+      _title: "Get text content locator('xpath=(//button[@id=\\'company-site-button\\'])[1]')",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1784271125725,
+    error: {
+      message: 'Error: locator.textContent: Test timeout of 120000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('xpath=(//button[@id=\\'company-site-button\\'])[1]')\x1B[22m\n",
+      stack: 'Error: locator.textContent: Test timeout of 120000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('xpath=(//button[@id=\\'company-site-button\\'])[1]')\x1B[22m\n" +
+        '\n' +
+        '    at D:\\Playwright\\src\\tests\\c_applyJobs.spec.ts:21:40',
+      cause: undefined
+    }
+  }
+}

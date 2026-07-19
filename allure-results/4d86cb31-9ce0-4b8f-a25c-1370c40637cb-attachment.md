@@ -1,0 +1,3241 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: c_applyJobs.spec.ts >> Apply For Job
+- Location: src\tests\c_applyJobs.spec.ts:4:5
+
+# Error details
+
+```
+Error: locator.click: Unexpected token ""]"" while parsing css selector "span[class="ni-gnb-icn ni-gnb-icn-search"]"]". Did you mean to CSS.escape it?
+Call log:
+  - waiting for span[class="ni-gnb-icn ni-gnb-icn-search"]"]
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e6]:
+    - link "Naukri.com" [ref=e7] [cursor=pointer]:
+      - /url: https://www.naukri.com
+      - img "Naukri.com" [ref=e8]
+    - navigation "Main navigation"
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - textbox "Enter keyword, designation, or companies" [active] [ref=e16]:
+          - /placeholder: Enter keyword / designation / companies
+          - text: qa engineer, automation tester, qa automation, automation engineer
+        - generic [ref=e20]:
+          - textbox "Select experience" [ref=e21]
+          - generic [ref=e22]: 
+        - textbox "Enter location" [ref=e28]
+      - generic: Search jobs here
+      - button "Search" [ref=e29] [cursor=pointer]:
+        - generic [ref=e30]: 
+        - generic [ref=e31]: Search
+  - generic [ref=e32]:
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - generic [ref=e35]: Recommended jobs for you
+        - generic [ref=e36]:
+          - text: You can select upto 5 jobs to apply
+          - button "Apply" [disabled] [ref=e37] [cursor=pointer]
+      - generic [ref=e39]:
+        - generic [ref=e41] [cursor=pointer]: Profile (72)
+        - generic [ref=e44] [cursor=pointer]: Applies (57)
+        - generic [ref=e47] [cursor=pointer]: Preferences (72)
+        - generic [ref=e50] [cursor=pointer]: You might like (75)
+    - generic [ref=e52]:
+      - generic [ref=e55]:
+        - article [ref=e56]:
+          - generic [ref=e57]:
+            - generic [ref=e58]:
+              - generic [ref=e59]:
+                - paragraph [ref=e60]: Walk-in || HCL Hiring For Automation, Playwright For Chennai Location on 11 July
+                - generic [ref=e62]:
+                  - generic "HCLTech" [ref=e63]
+                  - generic "Powered by Ambition Box" [ref=e64]:
+                    - generic [ref=e65]: 
+                    - generic [ref=e66]: "3.4"
+                  - link "47152 Reviews" [ref=e67] [cursor=pointer]:
+                    - /url: https://www.ambitionbox.com/reviews/hcl-technologies-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+                - list [ref=e68]:
+                  - listitem [ref=e69]:
+                    - generic [ref=e70]: 
+                    - generic "11 Jul" [ref=e71]
+                  - listitem [ref=e72]:
+                    - generic [ref=e73]: 
+                    - generic "Not disclosed" [ref=e74]
+                  - listitem [ref=e75]:
+                    - generic [ref=e76]: 
+                    - generic "Hybrid - Chennai" [ref=e77]
+              - img [ref=e79]
+            - generic [ref=e80]:
+              - generic [ref=e81]: 
+              - text: Roles and ResponsibilitiesDesign, develop, and execute automated tests using Playwright Automation framework to ensure high-quality software releases.Develop and maintain automation frameworks for regression testing of web applications using Types...
+            - list [ref=e82]:
+              - listitem [ref=e83]: TypeScript
+              - listitem [ref=e84]: Automation Testing
+              - listitem [ref=e85]: Playwright Automation
+              - listitem [ref=e86]: Hiring
+              - listitem [ref=e87]: Software testing
+              - listitem [ref=e88]: Automation
+            - generic [ref=e89]:
+              - generic [ref=e91]: Walk-in
+              - generic [ref=e93]: 1 Day Ago
+              - generic [ref=e94] [cursor=pointer]:
+                - generic [ref=e95]: 
+                - generic [ref=e96]: save
+              - generic [ref=e97] [cursor=pointer]:
+                - generic [ref=e98]: 
+                - generic [ref=e99]: Hide
+        - article [ref=e100]:
+          - generic [ref=e102]: 
+          - generic [ref=e103]:
+            - generic [ref=e104]:
+              - generic [ref=e105]:
+                - paragraph [ref=e106]: Automation Test Engineer
+                - generic [ref=e108]:
+                  - generic "KLA" [ref=e109]
+                  - generic "Powered by Ambition Box" [ref=e110]:
+                    - generic [ref=e111]: 
+                    - generic [ref=e112]: "3.8"
+                  - link "90 Reviews" [ref=e113] [cursor=pointer]:
+                    - /url: https://www.ambitionbox.com/reviews/kla-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+                - list [ref=e114]:
+                  - listitem [ref=e115]:
+                    - generic [ref=e116]: 
+                    - generic "2-7 Yrs" [ref=e117]
+                  - listitem [ref=e118]:
+                    - generic [ref=e119]: 
+                    - generic "14-24 Lacs PA" [ref=e120]
+                  - listitem [ref=e121]:
+                    - generic [ref=e122]: 
+                    - generic "Chennai" [ref=e123]
+              - img [ref=e125]
+            - generic [ref=e126]:
+              - generic [ref=e127]: 
+              - text: "They must be able to partner with cross-functional teams globally to resolve quality issues quickly. . Key Responsibilities Include: . Identify, evaluate, and implement test automation frameworks and tools that deliver measurable value across the ..."
+            - list [ref=e128]:
+              - listitem [ref=e129]: End to End Testing
+              - listitem [ref=e130]: Automation Testing
+              - listitem [ref=e131]: Testing Tools
+              - listitem [ref=e132]: End
+              - listitem [ref=e133]: End To End
+              - listitem [ref=e134]: Tools
+              - listitem [ref=e135]: Software testing
+              - listitem [ref=e136]: Automation
+            - generic [ref=e137]:
+              - generic [ref=e139]: 8 Days Ago
+              - generic [ref=e140] [cursor=pointer]:
+                - generic [ref=e141]: 
+                - generic [ref=e142]: save
+              - generic [ref=e143] [cursor=pointer]:
+                - generic [ref=e144]: 
+                - generic [ref=e145]: Hide
+        - generic [ref=e151] [cursor=pointer]:
+          - generic [ref=e152]:
+            - img "companyLogo" [ref=e154]
+            - generic [ref=e155]:
+              - generic [ref=e157]: We’re urgently hiring
+              - generic [ref=e158]:
+                - generic [ref=e159]: Tech Mahindra
+                - generic [ref=e160]:
+                  - img "rating" [ref=e161]
+                  - generic [ref=e162]: "3.3"
+                - generic [ref=e164]: 44.4K Reviews
+          - generic [ref=e165]:
+            - generic [ref=e166]: React JS Developer
+            - generic [ref=e167]:
+              - generic [ref=e168]:
+                - img "year-logo" [ref=e169]
+                - generic "5-10 Yrs" [ref=e170]
+              - generic [ref=e171]:
+                - img "location-logo" [ref=e172]
+                - generic "Chennai(Mahindra City)" [ref=e173]
+            - generic "TypeScript,DevOps,GCP,React.js,Nextjs,Javascript,Development" [ref=e174]:
+              - generic [ref=e175]: TypeScript
+              - generic [ref=e176]: DevOps
+              - generic [ref=e177]: GCP
+              - generic [ref=e178]: React.js
+              - generic [ref=e179]: Nextjs
+              - generic [ref=e180]: Javascript
+              - generic [ref=e181]: Development
+          - generic [ref=e182]:
+            - img "footer-icon" [ref=e183]
+            - generic [ref=e184]: Matching jobs promoted by companies
+        - article [ref=e185]:
+          - generic [ref=e187]: 
+          - generic [ref=e188]:
+            - generic [ref=e189]:
+              - generic [ref=e190]:
+                - paragraph [ref=e191]: SDET Automation Test Engineer (Rest assured) - Bangalore
+                - generic [ref=e193]:
+                  - generic "Info Edge" [ref=e194]
+                  - generic "Powered by Ambition Box" [ref=e195]:
+                    - generic [ref=e196]: 
+                    - generic [ref=e197]: "3.8"
+                  - link "2434 Reviews" [ref=e198] [cursor=pointer]:
+                    - /url: https://www.ambitionbox.com/reviews/info-edge-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+                - list [ref=e199]:
+                  - listitem [ref=e200]:
+                    - generic [ref=e201]: 
+                    - generic "2-3 Yrs" [ref=e202]
+                  - listitem [ref=e203]:
+                    - generic [ref=e204]: 
+                    - generic "15-16 Lacs PA" [ref=e205]
+                  - listitem [ref=e206]:
+                    - generic [ref=e207]: 
+                    - generic "Bengaluru" [ref=e208]
+              - img [ref=e210]
+            - generic [ref=e211]:
+              - generic [ref=e212]: 
+              - text: Preferred candidate profile . Experience testing REST APIs using tools like Postman or Rest AssuredGood understanding of Agile methodology and SDLC
+            - list [ref=e213]:
+              - listitem [ref=e214]: Rest Assured
+              - listitem [ref=e215]: Automation Testing
+              - listitem [ref=e216]: Java Selenium
+              - listitem [ref=e217]: Automation
+              - listitem [ref=e218]: Selenium
+              - listitem [ref=e219]: Software testing
+              - listitem [ref=e220]: Java
+              - listitem [ref=e221]: Rest
+            - generic [ref=e222]:
+              - generic [ref=e224]: 17 Days Ago
+              - generic [ref=e225] [cursor=pointer]:
+                - generic [ref=e226]: 
+                - generic [ref=e227]: save
+              - generic [ref=e228] [cursor=pointer]:
+                - generic [ref=e229]: 
+                - generic [ref=e230]: Hide
+        - article [ref=e231]:
+          - generic [ref=e233]: 
+          - generic [ref=e234]:
+            - generic [ref=e236]:
+              - paragraph [ref=e237]: SDET I at A FinTech Company
+              - generic [ref=e238]:
+                - generic "Talentzo Delhi" [ref=e240]
+                - generic "Posted by Talentzo Delhi" [ref=e241]
+              - list [ref=e242]:
+                - listitem [ref=e243]:
+                  - generic [ref=e244]: 
+                  - generic "0-3 Yrs" [ref=e245]
+                - listitem [ref=e246]:
+                  - generic [ref=e247]: 
+                  - generic "12-16 Lacs PA" [ref=e248]
+                - listitem [ref=e249]:
+                  - generic [ref=e250]: 
+                  - generic "Remote" [ref=e251]
+            - generic [ref=e252]:
+              - generic [ref=e253]: 
+              - text: Preferred candidate profile Experience in QA Automation or SDET Strong experience with Playwright and JavaScript / TypeScript Experience in REST API testing and CI / CD
+            - list [ref=e254]:
+              - listitem [ref=e255]: Quality Assurance
+              - listitem [ref=e256]: SDET
+              - listitem [ref=e257]: Automation Testing
+              - listitem [ref=e258]: Assurance
+              - listitem [ref=e259]: Automation
+              - listitem [ref=e260]: Quality
+              - listitem [ref=e261]: Fintech
+              - listitem [ref=e262]: Software testing
+            - generic [ref=e263]:
+              - generic [ref=e265]: 2 Days Ago
+              - generic [ref=e266] [cursor=pointer]:
+                - generic [ref=e267]: 
+                - generic [ref=e268]: save
+              - generic [ref=e269] [cursor=pointer]:
+                - generic [ref=e270]: 
+                - generic [ref=e271]: Hide
+        - article [ref=e272]:
+          - generic [ref=e274]: 
+          - generic [ref=e275]:
+            - generic [ref=e277]:
+              - paragraph [ref=e278]: Software Maintenance Engineer
+              - generic [ref=e280]:
+                - generic "Red Hat" [ref=e281]
+                - generic "Powered by Ambition Box" [ref=e282]:
+                  - generic [ref=e283]: 
+                  - generic [ref=e284]: "4.4"
+                - link "469 Reviews" [ref=e285] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/red-hat-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e286]:
+                - listitem [ref=e287]:
+                  - generic [ref=e288]: 
+                  - generic "4-9 Yrs" [ref=e289]
+                - listitem [ref=e290]:
+                  - generic [ref=e291]: 
+                  - generic "Not disclosed" [ref=e292]
+                - listitem [ref=e293]:
+                  - generic [ref=e294]: 
+                  - generic "Pune" [ref=e295]
+            - generic [ref=e296]:
+              - generic [ref=e297]: 
+              - text: The Red Hat Sustaining Engineering team under Experience Engineering (XE) organization is looking for a Software Maintenance Engineer to help a new team aimed at improving the long-term product experience of our Red Hat OpenShift AI(RHOAI) custome...
+            - list [ref=e298]:
+              - listitem [ref=e299]: ai
+              - listitem [ref=e300]: continuous integration
+              - listitem [ref=e301]: kubernetes
+              - listitem [ref=e302]: cloud services
+              - listitem [ref=e303]: github
+              - listitem [ref=e304]: python
+              - listitem [ref=e305]: cloud
+              - listitem [ref=e306]: automation
+            - generic [ref=e307]:
+              - generic [ref=e309]: 1 Day Ago
+              - generic [ref=e310] [cursor=pointer]:
+                - generic [ref=e311]: 
+                - generic [ref=e312]: save
+              - generic [ref=e313] [cursor=pointer]:
+                - generic [ref=e314]: 
+                - generic [ref=e315]: Hide
+        - generic [ref=e316]:
+          - generic [ref=e317]: Are these jobs relevant for you?
+          - generic [ref=e318]:
+            - button "Yes" [ref=e319] [cursor=pointer]
+            - button "No" [ref=e320] [cursor=pointer]
+        - article [ref=e321]:
+          - generic [ref=e323]: 
+          - generic [ref=e324]:
+            - generic [ref=e326]:
+              - paragraph [ref=e327]: Manual Testing
+              - generic [ref=e329]:
+                - generic "Tech Mahindra" [ref=e330]
+                - generic "Powered by Ambition Box" [ref=e331]:
+                  - generic [ref=e332]: 
+                  - generic [ref=e333]: "3.3"
+                - link "44356 Reviews" [ref=e334] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/tech-mahindra-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e335]:
+                - listitem [ref=e336]:
+                  - generic [ref=e337]: 
+                  - generic "4-8 Yrs" [ref=e338]
+                - listitem [ref=e339]:
+                  - generic [ref=e340]: 
+                  - generic "5-12 Lacs PA" [ref=e341]
+                - listitem [ref=e342]:
+                  - generic [ref=e343]: 
+                  - generic "Chennai" [ref=e344]
+            - generic [ref=e345]:
+              - generic [ref=e346]: 
+              - text: Candidate must have experience in Manual Testing, SQL and API Testing. . Daily office role and alternate Saturdays working. Candidates Must have PF in all companies. .
+            - list [ref=e347]:
+              - listitem [ref=e348]: API Testing
+              - listitem [ref=e349]: Qa Manual Testing
+              - listitem [ref=e350]: Manual Testing
+              - listitem [ref=e351]: Manual Functional Testing
+              - listitem [ref=e352]: SQL
+              - listitem [ref=e353]: Quality assurance
+              - listitem [ref=e354]: Functional testing
+              - listitem [ref=e355]: QA Manual
+            - generic [ref=e356]:
+              - generic [ref=e358]: 1 Day Ago
+              - generic [ref=e359] [cursor=pointer]:
+                - generic [ref=e360]: 
+                - generic [ref=e361]: save
+              - generic [ref=e362] [cursor=pointer]:
+                - generic [ref=e363]: 
+                - generic [ref=e364]: Hide
+        - article [ref=e365]:
+          - generic [ref=e367]: 
+          - generic [ref=e368]:
+            - generic [ref=e370]:
+              - paragraph [ref=e371]: Software Engineer
+              - generic [ref=e373]:
+                - generic "Sasken Technologies" [ref=e374]
+                - generic "Powered by Ambition Box" [ref=e375]:
+                  - generic [ref=e376]: 
+                  - generic [ref=e377]: "3.5"
+                - link "642 Reviews" [ref=e378] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/sasken-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e379]:
+                - listitem [ref=e380]:
+                  - generic [ref=e381]: 
+                  - generic "3-6 Yrs" [ref=e382]
+                - listitem [ref=e383]:
+                  - generic [ref=e384]: 
+                  - generic "Not disclosed" [ref=e385]
+                - listitem [ref=e386]:
+                  - generic [ref=e387]: 
+                  - generic "Chennai" [ref=e388]
+            - generic [ref=e389]:
+              - generic [ref=e390]: 
+              - text: "* Connected Services ( 3 to 6 years)Role Objective: Development of connected vehicle ecosystem across telematics, cloud, and mobile/app integration.Key Responsibilities:Define and drive end-to-end connected architecture (vehicle cloud mobile)Hands..."
+            - list [ref=e391]:
+              - listitem [ref=e392]: Connected Vehicle
+              - listitem [ref=e393]: Aws Iot Core
+              - listitem [ref=e394]: TCU
+              - listitem [ref=e395]: Connectivity
+              - listitem [ref=e396]: Microservices
+              - listitem [ref=e397]: IOT
+              - listitem [ref=e398]: Software engineering
+              - listitem [ref=e399]: Core
+            - generic [ref=e400]:
+              - generic [ref=e402]: 10 Days Ago
+              - generic [ref=e403] [cursor=pointer]:
+                - generic [ref=e404]: 
+                - generic [ref=e405]: save
+              - generic [ref=e406] [cursor=pointer]:
+                - generic [ref=e407]: 
+                - generic [ref=e408]: Hide
+        - article [ref=e409]:
+          - generic [ref=e411]: 
+          - generic [ref=e412]:
+            - generic [ref=e414]:
+              - paragraph [ref=e415]: Software Test Engineer Opening at FIS Global
+              - generic [ref=e417]:
+                - generic "FIS" [ref=e418]
+                - generic "Powered by Ambition Box" [ref=e419]:
+                  - generic [ref=e420]: 
+                  - generic [ref=e421]: "3.7"
+                - link "6710 Reviews" [ref=e422] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/fis-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e423]:
+                - listitem [ref=e424]:
+                  - generic [ref=e425]: 
+                  - generic "4-6 Yrs" [ref=e426]
+                - listitem [ref=e427]:
+                  - generic [ref=e428]: 
+                  - generic "5-15 Lacs PA" [ref=e429]
+                - listitem [ref=e430]:
+                  - generic [ref=e431]: 
+                  - generic "Hybrid - Bengaluru" [ref=e432]
+            - generic [ref=e433]:
+              - generic [ref=e434]: 
+              - text: Preferred candidate profile . Role & responsibilities . Min 4-8 years of professional working experience in Software Quality Assurance including Automation experienceHands-on experience on Automation tools (e.gHands-on experience on Automation fra...
+            - list [ref=e435]:
+              - listitem [ref=e436]: Java
+              - listitem [ref=e437]: automation testing
+              - listitem [ref=e438]: API Testing
+              - listitem [ref=e439]: Selenium
+              - listitem [ref=e440]: Global
+              - listitem [ref=e441]: Software testing
+              - listitem [ref=e442]: Software
+              - listitem [ref=e443]: Automation
+            - generic [ref=e444]:
+              - generic [ref=e446]: 3 Days Ago
+              - generic [ref=e447] [cursor=pointer]:
+                - generic [ref=e448]: 
+                - generic [ref=e449]: save
+              - generic [ref=e450] [cursor=pointer]:
+                - generic [ref=e451]: 
+                - generic [ref=e452]: Hide
+        - article [ref=e453]:
+          - generic [ref=e455]: 
+          - generic [ref=e456]:
+            - generic [ref=e458]:
+              - paragraph [ref=e459]: Sdet Automation Test Engineer
+              - generic [ref=e461]:
+                - generic "Hilabs" [ref=e462]
+                - generic "Powered by Ambition Box" [ref=e463]:
+                  - generic [ref=e464]: 
+                  - generic [ref=e465]: "3.6"
+                - link "85 Reviews" [ref=e466] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/hilabs-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e467]:
+                - listitem [ref=e468]:
+                  - generic [ref=e469]: 
+                  - generic "3-4 Yrs" [ref=e470]
+                - listitem [ref=e471]:
+                  - generic [ref=e472]: 
+                  - generic "Not disclosed" [ref=e473]
+                - listitem [ref=e474]:
+                  - generic [ref=e475]: 
+                  - generic "Pune(Kharadi)" [ref=e476]
+            - generic [ref=e477]:
+              - generic [ref=e478]: 
+              - text: "Multi-tasking capabilities and leadership qualities are requiredWe are looking for a highly motivated QA tester with strong UI testing experience to join our teamExperience: 3 to 5 years in QA / Automation Hands-on experience with Selenium, PyTest..."
+            - list [ref=e479]:
+              - listitem [ref=e480]: SDET
+              - listitem [ref=e481]: Playwright
+              - listitem [ref=e482]: Automation Testing
+              - listitem [ref=e483]: Python
+              - listitem [ref=e484]: Root Cause Analysis
+              - listitem [ref=e485]: Java
+              - listitem [ref=e486]: REST Assured
+              - listitem [ref=e487]: Debugging
+            - generic [ref=e488]:
+              - generic [ref=e490]: 1 Day Ago
+              - generic [ref=e491] [cursor=pointer]:
+                - generic [ref=e492]: 
+                - generic [ref=e493]: save
+              - generic [ref=e494] [cursor=pointer]:
+                - generic [ref=e495]: 
+                - generic [ref=e496]: Hide
+        - article [ref=e497]:
+          - generic [ref=e499]: 
+          - generic [ref=e500]:
+            - generic [ref=e502]:
+              - paragraph [ref=e503]: Software Engineer, DevOps
+              - generic [ref=e505]:
+                - generic "Conga" [ref=e506]
+                - generic "Powered by Ambition Box" [ref=e507]:
+                  - generic [ref=e508]: 
+                  - generic [ref=e509]: "3.9"
+                - link "82 Reviews" [ref=e510] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/conga-solutions-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e511]:
+                - listitem [ref=e512]:
+                  - generic [ref=e513]: 
+                  - generic "2-5 Yrs" [ref=e514]
+                - listitem [ref=e515]:
+                  - generic [ref=e516]: 
+                  - generic "Not disclosed" [ref=e517]
+                - listitem [ref=e518]:
+                  - generic [ref=e519]: 
+                  - generic "Hybrid - Bengaluru, Ahmedabad" [ref=e520]
+            - generic [ref=e521]:
+              - generic [ref=e522]: 
+              - text: This is one of those critical roles in the team where the resource will be involved in both development & deployment operations and work individually, solving multiple challenges, and learning new technologies & programming languages in the market...
+            - list [ref=e523]:
+              - listitem [ref=e524]: Docker
+              - listitem [ref=e525]: Github
+              - listitem [ref=e526]: Ci/Cd
+              - listitem [ref=e527]: ArgoCD
+              - listitem [ref=e528]: Helm
+              - listitem [ref=e529]: Jenkins
+              - listitem [ref=e530]: MongoDB
+              - listitem [ref=e531]: Kubernetes
+            - generic [ref=e532]:
+              - generic [ref=e534]: 6 Days Ago
+              - generic [ref=e535] [cursor=pointer]:
+                - generic [ref=e536]: 
+                - generic [ref=e537]: save
+              - generic [ref=e538] [cursor=pointer]:
+                - generic [ref=e539]: 
+                - generic [ref=e540]: Hide
+        - article [ref=e541]:
+          - generic [ref=e543]: 
+          - generic [ref=e544]:
+            - generic [ref=e546]:
+              - paragraph [ref=e547]: Backend (Node.js & NestJS) + Apigee Developer - 2 To 4 Years
+              - generic [ref=e549]:
+                - generic "EY" [ref=e550]
+                - generic "Powered by Ambition Box" [ref=e551]:
+                  - generic [ref=e552]: 
+                  - generic [ref=e553]: "3.4"
+                - link "15044 Reviews" [ref=e554] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/ernst-young-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e555]:
+                - listitem [ref=e556]:
+                  - generic [ref=e557]: 
+                  - generic "2-7 Yrs" [ref=e558]
+                - listitem [ref=e559]:
+                  - generic [ref=e560]: 
+                  - generic "Not disclosed" [ref=e561]
+                - listitem [ref=e562]:
+                  - generic [ref=e563]: 
+                  - generic "Pune" [ref=e564]
+            - generic [ref=e565]:
+              - generic [ref=e566]: 
+              - text: Preferred General Insurance domain knowledge in health / motor/travel insurance 2 to 4 Years of strong experience as backend developer with node.js (NestJS) and APIGEE DevelopmentExperience with PostgreSQL and relational database optimization
+            - list [ref=e567]:
+              - listitem [ref=e568]: Apigee Edge
+              - listitem [ref=e569]: Node.js
+              - listitem [ref=e570]: Apigee X
+              - listitem [ref=e571]: Google Cloud Platforms
+              - listitem [ref=e572]: NestJS
+              - listitem [ref=e573]: RESTful API
+              - listitem [ref=e574]: GCP Cloud
+              - listitem [ref=e575]: GCP
+            - generic [ref=e576]:
+              - generic [ref=e578]: 8 Days Ago
+              - generic [ref=e579] [cursor=pointer]:
+                - generic [ref=e580]: 
+                - generic [ref=e581]: save
+              - generic [ref=e582] [cursor=pointer]:
+                - generic [ref=e583]: 
+                - generic [ref=e584]: Hide
+        - article [ref=e585]:
+          - generic [ref=e587]: 
+          - generic [ref=e588]:
+            - generic [ref=e590]:
+              - paragraph [ref=e591]: Software Engineer
+              - generic [ref=e593]:
+                - generic "NetApp" [ref=e594]
+                - generic "Powered by Ambition Box" [ref=e595]:
+                  - generic [ref=e596]: 
+                  - generic [ref=e597]: "3.6"
+                - link "459 Reviews" [ref=e598] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/netapp-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e599]:
+                - listitem [ref=e600]:
+                  - generic [ref=e601]: 
+                  - generic "3-5 Yrs" [ref=e602]
+                - listitem [ref=e603]:
+                  - generic [ref=e604]: 
+                  - generic "Not disclosed" [ref=e605]
+                - listitem [ref=e606]:
+                  - generic [ref=e607]: 
+                  - generic "Bengaluru" [ref=e608]
+            - generic [ref=e609]:
+              - generic [ref=e610]: 
+              - text: Experience working with python for test automation or developmentExperience with REST API, Ansible, Terraform, Helm, Golang OS Administration skills ( Linux, Windows, ESXi). Experience with ONTAP, CVS, or other NetApp products, or cloud-native sto...
+            - list [ref=e611]:
+              - listitem [ref=e612]: Golang
+              - listitem [ref=e613]: NAS
+              - listitem [ref=e614]: CVS
+              - listitem [ref=e615]: Ontap
+              - listitem [ref=e616]: Troubleshooting
+              - listitem [ref=e617]: Rancher
+              - listitem [ref=e618]: Rest
+              - listitem [ref=e619]: Terraform
+            - generic [ref=e620]:
+              - generic [ref=e622]: 4 Days Ago
+              - generic [ref=e623] [cursor=pointer]:
+                - generic [ref=e624]: 
+                - generic [ref=e625]: save
+              - generic [ref=e626] [cursor=pointer]:
+                - generic [ref=e627]: 
+                - generic [ref=e628]: Hide
+        - article [ref=e629]:
+          - generic [ref=e631]: 
+          - generic [ref=e632]:
+            - generic [ref=e634]:
+              - paragraph [ref=e635]: Automation QA Engineer
+              - generic [ref=e637]:
+                - generic "CGI" [ref=e638]
+                - generic "Powered by Ambition Box" [ref=e639]:
+                  - generic [ref=e640]: 
+                  - generic [ref=e641]: "4.0"
+                - link "5571 Reviews" [ref=e642] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/cgi-inc-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e643]:
+                - listitem [ref=e644]:
+                  - generic [ref=e645]: 
+                  - generic "3-6 Yrs" [ref=e646]
+                - listitem [ref=e647]:
+                  - generic [ref=e648]: 
+                  - generic "8-18 Lacs PA" [ref=e649]
+                - listitem [ref=e650]:
+                  - generic [ref=e651]: 
+                  - generic "Hybrid - Pune, Chennai, Bengaluru" [ref=e652]
+            - generic [ref=e653]:
+              - generic [ref=e654]: 
+              - text: "Location: Hyderabad / Pune / Mumbai / Bangalore / Chennai. Job Summary . We are seeking a detail-oriented and proactive Automation QA Engineer with 35 years of experience in Web and Mobile Automation Testing however, strong experience in Web Autom..."
+            - list [ref=e655]:
+              - listitem [ref=e656]: Mobile Automation Testing
+              - listitem [ref=e657]: XPath
+              - listitem [ref=e658]: Automation Testing
+              - listitem [ref=e659]: Appium
+              - listitem [ref=e660]: Selenium with Java
+              - listitem [ref=e661]: API Testing
+              - listitem [ref=e662]: Quality assurance
+              - listitem [ref=e663]: Mobile testing
+            - generic [ref=e664]:
+              - generic [ref=e666]: 7 Days Ago
+              - generic [ref=e667] [cursor=pointer]:
+                - generic [ref=e668]: 
+                - generic [ref=e669]: save
+              - generic [ref=e670] [cursor=pointer]:
+                - generic [ref=e671]: 
+                - generic [ref=e672]: Hide
+        - article [ref=e673]:
+          - generic [ref=e675]: 
+          - generic [ref=e676]:
+            - generic [ref=e678]:
+              - paragraph [ref=e679]: QA Automation Engineer
+              - generic [ref=e681]:
+                - generic "Sportz Interactive" [ref=e682]
+                - generic "Powered by Ambition Box" [ref=e683]:
+                  - generic [ref=e684]: 
+                  - generic [ref=e685]: "3.4"
+                - link "176 Reviews" [ref=e686] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/sportz-interactive-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e687]:
+                - listitem [ref=e688]:
+                  - generic [ref=e689]: 
+                  - generic "5-7 Yrs" [ref=e690]
+                - listitem [ref=e691]:
+                  - generic [ref=e692]: 
+                  - generic "Not disclosed" [ref=e693]
+                - listitem [ref=e694]:
+                  - generic [ref=e695]: 
+                  - generic "Mumbai(Goregaon)" [ref=e696]
+            - generic [ref=e697]:
+              - generic [ref=e698]: 
+              - text: Design and execute automated tests for web/mobile apps, build scalable frameworks, collaborate on test strategies, perform functional, regression, integration & API testing, integrate with CI/CD, track defects, enhance test coverage.
+            - list [ref=e699]:
+              - listitem [ref=e700]: Regression Testing
+              - listitem [ref=e701]: Playwright
+              - listitem [ref=e702]: QA Automation
+              - listitem [ref=e703]: Functional Testing
+              - listitem [ref=e704]: Java
+              - listitem [ref=e705]: Ci / Cd Tools
+              - listitem [ref=e706]: Selenium Testing
+              - listitem [ref=e707]: Cypress
+            - generic [ref=e708]:
+              - generic [ref=e710]: 1 Day Ago
+              - generic [ref=e711] [cursor=pointer]:
+                - generic [ref=e712]: 
+                - generic [ref=e713]: save
+              - generic [ref=e714] [cursor=pointer]:
+                - generic [ref=e715]: 
+                - generic [ref=e716]: Hide
+        - article [ref=e717]:
+          - generic [ref=e719]: 
+          - generic [ref=e720]:
+            - generic [ref=e722]:
+              - paragraph [ref=e723]: Software Engineer II
+              - generic [ref=e725]:
+                - generic "Mastercard" [ref=e726]
+                - generic "Powered by Ambition Box" [ref=e727]:
+                  - generic [ref=e728]: 
+                  - generic [ref=e729]: "3.8"
+                - link "1026 Reviews" [ref=e730] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/mastercard-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e731]:
+                - listitem [ref=e732]:
+                  - generic [ref=e733]: 
+                  - generic "1-3 Yrs" [ref=e734]
+                - listitem [ref=e735]:
+                  - generic [ref=e736]: 
+                  - generic "Not disclosed" [ref=e737]
+                - listitem [ref=e738]:
+                  - generic [ref=e739]: 
+                  - generic "Pune" [ref=e740]
+            - generic [ref=e741]:
+              - generic [ref=e742]: 
+              - text: "Education: Bachelors degree in Information Technology, Computer Science or Management Information Systems or equivalent work experienceKnowledge / Experience: Thorough knowledge and understanding of Software Engineering Concepts and Methodologies ..."
+            - list [ref=e743]:
+              - listitem [ref=e744]: software engineer
+              - listitem [ref=e745]: software development
+              - listitem [ref=e746]: quality control
+              - listitem [ref=e747]: information technology
+              - listitem [ref=e748]: templates
+              - listitem [ref=e749]: collection
+              - listitem [ref=e750]: research
+              - listitem [ref=e751]: incident management
+            - generic [ref=e752]:
+              - generic [ref=e754]: 1 Day Ago
+              - generic [ref=e755] [cursor=pointer]:
+                - generic [ref=e756]: 
+                - generic [ref=e757]: save
+              - generic [ref=e758] [cursor=pointer]:
+                - generic [ref=e759]: 
+                - generic [ref=e760]: Hide
+        - article [ref=e761]:
+          - generic [ref=e762]:
+            - generic [ref=e764]:
+              - paragraph [ref=e765]: Software Tester
+              - generic [ref=e767]:
+                - generic "Techally Labs" [ref=e768]
+                - generic "Powered by Ambition Box" [ref=e769]:
+                  - generic [ref=e770]: 
+                  - generic [ref=e771]: "4.8"
+                - link "4 Reviews" [ref=e772] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/techally-labs-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e773]:
+                - listitem [ref=e774]:
+                  - generic [ref=e775]: 
+                  - generic "1-3 Yrs" [ref=e776]
+                - listitem [ref=e777]:
+                  - generic [ref=e778]: 
+                  - generic "Not disclosed" [ref=e779]
+                - listitem [ref=e780]:
+                  - generic [ref=e781]: 
+                  - generic "Hyderabad" [ref=e782]
+            - generic [ref=e783]:
+              - generic [ref=e784]: 
+              - text: Optimize software testing systems for maximum efficiencyRequired Qualifications . Bachelors degree in Computer Science, Software Engineering, or a related fieldIdeal candidates should have advanced knowledge of software design, strong attention to...
+            - list [ref=e785]:
+              - listitem [ref=e786]: software development
+              - listitem [ref=e787]: software testing
+              - listitem [ref=e788]: software design
+              - listitem [ref=e789]: operating systems
+              - listitem [ref=e790]: qa
+              - listitem [ref=e791]: r
+              - listitem [ref=e792]: selenium
+              - listitem [ref=e793]: testing tools
+            - generic [ref=e794]:
+              - generic [ref=e796]: 1 Day Ago
+              - generic [ref=e797] [cursor=pointer]:
+                - generic [ref=e798]: 
+                - generic [ref=e799]: save
+              - generic [ref=e800] [cursor=pointer]:
+                - generic [ref=e801]: 
+                - generic [ref=e802]: Hide
+        - article [ref=e803]:
+          - generic [ref=e804]:
+            - generic [ref=e806]:
+              - paragraph [ref=e807]: Associate Software Engineer
+              - generic [ref=e809]:
+                - generic "KLA" [ref=e810]
+                - generic "Powered by Ambition Box" [ref=e811]:
+                  - generic [ref=e812]: 
+                  - generic [ref=e813]: "3.8"
+                - link "90 Reviews" [ref=e814] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/kla-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e815]:
+                - listitem [ref=e816]:
+                  - generic [ref=e817]: 
+                  - generic "0-2 Yrs" [ref=e818]
+                - listitem [ref=e819]:
+                  - generic [ref=e820]: 
+                  - generic "Not disclosed" [ref=e821]
+                - listitem [ref=e822]:
+                  - generic [ref=e823]: 
+                  - generic "Chennai" [ref=e824]
+            - generic [ref=e825]:
+              - generic [ref=e826]: 
+              - text: "Minimum Qualifications . Masters Level Degree and 0 years related work experience Bachelors Level Degree and related work experience of 2 years . Disclaimer: This job posting has been aggregated from external source"
+            - list [ref=e827]:
+              - listitem [ref=e828]: Software design
+              - listitem [ref=e829]: Chip design
+              - listitem [ref=e830]: Process control
+              - listitem [ref=e831]: Packaging
+              - listitem [ref=e832]: Metrology
+              - listitem [ref=e833]: Video conferencing
+              - listitem [ref=e834]: Application development
+              - listitem [ref=e835]: Unit testing
+            - generic [ref=e836]:
+              - generic [ref=e838]: 6 Days Ago
+              - generic [ref=e839] [cursor=pointer]:
+                - generic [ref=e840]: 
+                - generic [ref=e841]: save
+              - generic [ref=e842] [cursor=pointer]:
+                - generic [ref=e843]: 
+                - generic [ref=e844]: Hide
+        - article [ref=e845]:
+          - generic [ref=e846]:
+            - generic [ref=e848]:
+              - paragraph [ref=e849]: Walk-in || Automation Tester
+              - generic [ref=e851]:
+                - generic "Indium Software" [ref=e852]
+                - generic "Powered by Ambition Box" [ref=e853]:
+                  - generic [ref=e854]: 
+                  - generic [ref=e855]: "3.9"
+                - link "1386 Reviews" [ref=e856] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/indium-software-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e857]:
+                - listitem [ref=e858]:
+                  - generic [ref=e859]: 
+                  - generic "15 Jul" [ref=e860]
+                - listitem [ref=e861]:
+                  - generic [ref=e862]: 
+                  - generic "10-20 Lacs PA" [ref=e863]
+                - listitem [ref=e864]:
+                  - generic [ref=e865]: 
+                  - generic "Chennai" [ref=e866]
+            - generic [ref=e867]:
+              - generic [ref=e868]: 
+              - text: About Indium:Indium Software is a leading provider of Digital Engineering Services. We make technology work for our clients driving measurable business value. We provide services across Application Engineering, Data and Analytics, Cloud Engineerin...
+            - list [ref=e869]:
+              - listitem [ref=e870]: Rest Assured
+              - listitem [ref=e871]: Playwright
+              - listitem [ref=e872]: Automation Testing
+              - listitem [ref=e873]: TypeScript
+              - listitem [ref=e874]: Cypress
+              - listitem [ref=e875]: Javascript
+              - listitem [ref=e876]: Rest
+              - listitem [ref=e877]: Software testing
+            - generic [ref=e878]:
+              - generic [ref=e880]: Walk-in
+              - generic [ref=e882]: 2 Days Ago
+              - generic [ref=e883] [cursor=pointer]:
+                - generic [ref=e884]: 
+                - generic [ref=e885]: save
+              - generic [ref=e886] [cursor=pointer]:
+                - generic [ref=e887]: 
+                - generic [ref=e888]: Hide
+        - article [ref=e889]:
+          - generic [ref=e891]: 
+          - generic [ref=e892]:
+            - generic [ref=e894]:
+              - paragraph [ref=e895]: Automation Test Engineer
+              - generic [ref=e896]:
+                - generic "Tecnoprism" [ref=e898]
+                - generic "Posted by Tecnoprism" [ref=e899]
+              - list [ref=e900]:
+                - listitem [ref=e901]:
+                  - generic [ref=e902]: 
+                  - generic "5-10 Yrs" [ref=e903]
+                - listitem [ref=e904]:
+                  - generic [ref=e905]: 
+                  - generic "Not disclosed" [ref=e906]
+                - listitem [ref=e907]:
+                  - generic [ref=e908]: 
+                  - generic "Hybrid - Chennai" [ref=e909]
+            - generic [ref=e910]:
+              - generic [ref=e911]: 
+              - text: Design and implement automation frameworks for Temenos T24 (Transact) applications across standalone and integrated environments. Develop and maintain automated test scripts using Core Java, Selenium, Cucumber, TestNG, Rest Assured, and Playwright...
+            - list [ref=e912]:
+              - listitem [ref=e913]: Java
+              - listitem [ref=e914]: Automation tool
+              - listitem [ref=e915]: Confluent Kafka
+              - listitem [ref=e916]: T24
+              - listitem [ref=e917]: Selenium
+              - listitem [ref=e918]: Temenos T24
+              - listitem [ref=e919]: CI CD
+              - listitem [ref=e920]: cloud platforms
+            - generic [ref=e921]:
+              - generic [ref=e923]: 1 Day Ago
+              - generic [ref=e924] [cursor=pointer]:
+                - generic [ref=e925]: 
+                - generic [ref=e926]: save
+              - generic [ref=e927] [cursor=pointer]:
+                - generic [ref=e928]: 
+                - generic [ref=e929]: Hide
+        - article [ref=e930]:
+          - generic [ref=e932]: 
+          - generic [ref=e933]:
+            - generic [ref=e935]:
+              - paragraph [ref=e936]: QA Engineer _Contract Role_ Bengaluru _Immediate Joiners Only
+              - generic [ref=e937]:
+                - generic "CIEL HR" [ref=e939]
+                - generic "Posted by CIEL HR" [ref=e940]
+              - list [ref=e941]:
+                - listitem [ref=e942]:
+                  - generic [ref=e943]: 
+                  - generic "2-4 Yrs" [ref=e944]
+                - listitem [ref=e945]:
+                  - generic [ref=e946]: 
+                  - generic "8-14 Lacs PA" [ref=e947]
+                - listitem [ref=e948]:
+                  - generic [ref=e949]: 
+                  - generic "Hybrid - Bengaluru" [ref=e950]
+            - generic [ref=e951]:
+              - generic [ref=e952]: 
+              - text: "Experience integrating automated tests with CI / CD systems such as Jenkins, GitHub Actions, or similar platformsRelevant Experience in Python Coding: 2+ Years. Notice Period: Immediate Joiners Only. Experience: 2-4 Years. Strong programming and s..."
+            - list [ref=e953]:
+              - listitem [ref=e954]: Python coding
+              - listitem [ref=e955]: Debugging
+              - listitem [ref=e956]: Automation Testing
+              - listitem [ref=e957]: API
+              - listitem [ref=e958]: CI CD Pipeline
+              - listitem [ref=e959]: GIT
+              - listitem [ref=e960]: UI Automation
+              - listitem [ref=e961]: Continuous Integration
+            - generic [ref=e962]:
+              - generic [ref=e964]: 1 Day Ago
+              - generic [ref=e965] [cursor=pointer]:
+                - generic [ref=e966]: 
+                - generic [ref=e967]: save
+              - generic [ref=e968] [cursor=pointer]:
+                - generic [ref=e969]: 
+                - generic [ref=e970]: Hide
+        - article [ref=e971]:
+          - generic [ref=e973]: 
+          - generic [ref=e974]:
+            - generic [ref=e976]:
+              - paragraph [ref=e977]: Consultant - AccelQ + Selenium
+              - generic [ref=e979]:
+                - generic "Deloitte US-India Offices" [ref=e980]
+                - generic "Powered by Ambition Box" [ref=e981]:
+                  - generic [ref=e982]: 
+                  - generic [ref=e983]: "3.6"
+                - link "24031 Reviews" [ref=e984] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/deloitte-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e985]:
+                - listitem [ref=e986]:
+                  - generic [ref=e987]: 
+                  - generic "4-7 Yrs" [ref=e988]
+                - listitem [ref=e989]:
+                  - generic [ref=e990]: 
+                  - generic "Not disclosed" [ref=e991]
+                - listitem [ref=e992]:
+                  - generic [ref=e993]: 
+                  - generic "Pune, Hyderabad, Bengaluru" [ref=e994]
+            - generic [ref=e995]:
+              - generic [ref=e996]: 
+              - text: "Participate in daily stand-ups, sprint planning meetings, and retrospectives to ensure effective communication. Job Requirements : . 4-7 years of experience in manual QA testing with expertise in Selenium automation testingExperience working on Ag..."
+            - list [ref=e997]:
+              - listitem [ref=e998]: Selenium Webdriver
+              - listitem [ref=e999]: accelq
+              - listitem [ref=e1000]: Selenium Automation Testing
+              - listitem [ref=e1001]: Selenium Testing
+              - listitem [ref=e1002]: Selenium Automation
+              - listitem [ref=e1003]: Webdriver
+              - listitem [ref=e1004]: Automation
+              - listitem [ref=e1005]: Consulting
+            - generic [ref=e1006]:
+              - generic [ref=e1008]: 1 Day Ago
+              - generic [ref=e1009] [cursor=pointer]:
+                - generic [ref=e1010]: 
+                - generic [ref=e1011]: save
+              - generic [ref=e1012] [cursor=pointer]:
+                - generic [ref=e1013]: 
+                - generic [ref=e1014]: Hide
+        - article [ref=e1015]:
+          - generic [ref=e1017]: 
+          - generic [ref=e1018]:
+            - generic [ref=e1020]:
+              - paragraph [ref=e1021]: Playwright +Javascript Automation Tester
+              - generic [ref=e1023]:
+                - generic "Globant" [ref=e1024]
+                - generic "Powered by Ambition Box" [ref=e1025]:
+                  - generic [ref=e1026]: 
+                  - generic [ref=e1027]: "3.3"
+                - link "1331 Reviews" [ref=e1028] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/globant-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e1029]:
+                - listitem [ref=e1030]:
+                  - generic [ref=e1031]: 
+                  - generic "4-7 Yrs" [ref=e1032]
+                - listitem [ref=e1033]:
+                  - generic [ref=e1034]: 
+                  - generic "Not disclosed" [ref=e1035]
+                - listitem [ref=e1036]:
+                  - generic [ref=e1037]: 
+                  - generic "Pune" [ref=e1038]
+            - generic [ref=e1039]:
+              - generic [ref=e1040]: 
+              - text: "Playwright: Proficiency in Playwright for cross-browser web automation testingRequirement Analysis: Collaborate with cross-functional teams to analyze requirements and derive test scenarios and casesRequired Skills . Java Proficiency: Strong profi..."
+            - list [ref=e1041]:
+              - listitem [ref=e1042]: Java
+              - listitem [ref=e1043]: Playwright
+              - listitem [ref=e1044]: javascript
+              - listitem [ref=e1045]: Rest Assured
+              - listitem [ref=e1046]: Selenium
+              - listitem [ref=e1047]: Automation
+              - listitem [ref=e1048]: BDD
+              - listitem [ref=e1049]: Ci/Cd
+            - generic [ref=e1050]:
+              - generic [ref=e1052]: 7 Days Ago
+              - generic [ref=e1053] [cursor=pointer]:
+                - generic [ref=e1054]: 
+                - generic [ref=e1055]: save
+              - generic [ref=e1056] [cursor=pointer]:
+                - generic [ref=e1057]: 
+                - generic [ref=e1058]: Hide
+        - article [ref=e1059]:
+          - generic [ref=e1061]: 
+          - generic [ref=e1062]:
+            - generic [ref=e1064]:
+              - paragraph [ref=e1065]: Automation Engineer
+              - generic [ref=e1067]:
+                - generic "Kiya.ai" [ref=e1068]
+                - generic "Powered by Ambition Box" [ref=e1069]:
+                  - generic [ref=e1070]: 
+                  - generic [ref=e1071]: "4.0"
+                - link "660 Reviews" [ref=e1072] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/kiya-dot-ai-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e1073]:
+                - listitem [ref=e1074]:
+                  - generic [ref=e1075]: 
+                  - generic "4-8 Yrs" [ref=e1076]
+                - listitem [ref=e1077]:
+                  - generic [ref=e1078]: 
+                  - generic "Not disclosed" [ref=e1079]
+                - listitem [ref=e1080]:
+                  - generic [ref=e1081]: 
+                  - generic "Hybrid - Mumbai" [ref=e1082]
+            - generic [ref=e1083]:
+              - generic [ref=e1084]: 
+              - text: Automation / workflow tool experience, e.gServiceNow integration experienceStrong Experience with Infrastructure tools and APIs
+            - list [ref=e1085]:
+              - listitem [ref=e1086]: Ansible
+              - listitem [ref=e1087]: Automation Engineering
+              - listitem [ref=e1088]: Python
+              - listitem [ref=e1089]: Ansible Tower
+              - listitem [ref=e1090]: Engineering
+              - listitem [ref=e1091]: Automation
+              - listitem [ref=e1092]: Tower
+            - generic [ref=e1093]:
+              - generic [ref=e1095]: 3 Days Ago
+              - generic [ref=e1096] [cursor=pointer]:
+                - generic [ref=e1097]: 
+                - generic [ref=e1098]: save
+              - generic [ref=e1099] [cursor=pointer]:
+                - generic [ref=e1100]: 
+                - generic [ref=e1101]: Hide
+        - article [ref=e1102]:
+          - generic [ref=e1104]: 
+          - generic [ref=e1105]:
+            - generic [ref=e1107]:
+              - paragraph [ref=e1108]: SDET
+              - generic [ref=e1110]:
+                - generic "Cognizant" [ref=e1111]
+                - generic "Powered by Ambition Box" [ref=e1112]:
+                  - generic [ref=e1113]: 
+                  - generic [ref=e1114]: "3.7"
+                - link "62815 Reviews" [ref=e1115] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/cognizant-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e1116]:
+                - listitem [ref=e1117]:
+                  - generic [ref=e1118]: 
+                  - generic "3-5 Yrs" [ref=e1119]
+                - listitem [ref=e1120]:
+                  - generic [ref=e1121]: 
+                  - generic "Not disclosed" [ref=e1122]
+                - listitem [ref=e1123]:
+                  - generic [ref=e1124]: 
+                  - generic "Chennai" [ref=e1125]
+            - generic [ref=e1126]:
+              - generic [ref=e1127]: 
+              - text: "Develop and Maintain Automation Scripts: Create robust reusable and maintainable automated test scripts using Playwright (JavaScript TypeScript preferred). Test Planning Design and implement test plans test cases and automation frameworks for func..."
+            - list [ref=e1128]:
+              - listitem [ref=e1129]: CD
+              - listitem [ref=e1130]: Automation
+              - listitem [ref=e1131]: BDD
+              - listitem [ref=e1132]: Github
+              - listitem [ref=e1133]: BDD Framework
+              - listitem [ref=e1134]: SDET
+              - listitem [ref=e1135]: Test Planning
+              - listitem [ref=e1136]: Debugging
+            - generic [ref=e1137]:
+              - generic [ref=e1139]: 1 Day Ago
+              - generic [ref=e1140] [cursor=pointer]:
+                - generic [ref=e1141]: 
+                - generic [ref=e1142]: save
+              - generic [ref=e1143] [cursor=pointer]:
+                - generic [ref=e1144]: 
+                - generic [ref=e1145]: Hide
+        - article [ref=e1146]:
+          - generic [ref=e1148]: 
+          - generic [ref=e1149]:
+            - generic [ref=e1151]:
+              - paragraph [ref=e1152]: SDET with Playwright Opening with Capco-Bangalore
+              - generic [ref=e1154]:
+                - generic "Capco" [ref=e1155]
+                - generic "Powered by Ambition Box" [ref=e1156]:
+                  - generic [ref=e1157]: 
+                  - generic [ref=e1158]: "3.8"
+                - link "707 Reviews" [ref=e1159] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/capco-technologies-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e1160]:
+                - listitem [ref=e1161]:
+                  - generic [ref=e1162]: 
+                  - generic "5-8 Yrs" [ref=e1163]
+                - listitem [ref=e1164]:
+                  - generic [ref=e1165]: 
+                  - generic "Not disclosed" [ref=e1166]
+                - listitem [ref=e1167]:
+                  - generic [ref=e1168]: 
+                  - generic "Hybrid - Bengaluru" [ref=e1169]
+            - generic [ref=e1170]:
+              - generic [ref=e1171]: 
+              - text: Strong programming skills in Java and JavaScript (preferably with knowledge of Java 17 or later )Solid experience in SQL and database fundamentals, including writing complex queries
+            - list [ref=e1172]:
+              - listitem [ref=e1173]: Java
+              - listitem [ref=e1174]: SDET
+              - listitem [ref=e1175]: API Testing
+              - listitem [ref=e1176]: Playwright
+              - listitem [ref=e1177]: Selenium
+              - listitem [ref=e1178]: TypeScript
+              - listitem [ref=e1179]: Rest Assured
+              - listitem [ref=e1180]: Cucumber
+            - generic [ref=e1181]:
+              - generic [ref=e1183]: 3 Days Ago
+              - generic [ref=e1184] [cursor=pointer]:
+                - generic [ref=e1185]: 
+                - generic [ref=e1186]: save
+              - generic [ref=e1187] [cursor=pointer]:
+                - generic [ref=e1188]: 
+                - generic [ref=e1189]: Hide
+        - article [ref=e1190]:
+          - generic [ref=e1192]: 
+          - generic [ref=e1193]:
+            - generic [ref=e1195]:
+              - paragraph [ref=e1196]: Forward Deployed Software Engineer
+              - generic [ref=e1198]:
+                - generic "Algoleap Technologies" [ref=e1199]
+                - generic "Powered by Ambition Box" [ref=e1200]:
+                  - generic [ref=e1201]: 
+                  - generic [ref=e1202]: "4.1"
+                - link "144 Reviews" [ref=e1203] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/algoleap-technologies-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e1204]:
+                - listitem [ref=e1205]:
+                  - generic [ref=e1206]: 
+                  - generic "2-14 Yrs" [ref=e1207]
+                - listitem [ref=e1208]:
+                  - generic [ref=e1209]: 
+                  - generic "Not disclosed" [ref=e1210]
+                - listitem [ref=e1211]:
+                  - generic [ref=e1212]: 
+                  - generic "Hyderabad" [ref=e1213]
+            - generic [ref=e1214]:
+              - generic [ref=e1215]: 
+              - text: "Troubleshoot issues in production environments and provide timely resolutions. Job Requirements : . 2-14 years of experience in software engineering with expertise in Java or Python programming languagesExperience working on Agile projects with ve..."
+            - list [ref=e1216]:
+              - listitem [ref=e1217]: Agentic Ai
+              - listitem [ref=e1218]: Java
+              - listitem [ref=e1219]: generative ai
+              - listitem [ref=e1220]: Fullstack Development
+              - listitem [ref=e1221]: Low Code
+              - listitem [ref=e1222]: Full Stack
+              - listitem [ref=e1223]: Python
+              - listitem [ref=e1224]: No Code
+            - generic [ref=e1225]:
+              - generic [ref=e1227]: 2 Days Ago
+              - generic [ref=e1228] [cursor=pointer]:
+                - generic [ref=e1229]: 
+                - generic [ref=e1230]: save
+              - generic [ref=e1231] [cursor=pointer]:
+                - generic [ref=e1232]: 
+                - generic [ref=e1233]: Hide
+        - article [ref=e1234]:
+          - generic [ref=e1236]: 
+          - generic [ref=e1237]:
+            - generic [ref=e1239]:
+              - paragraph [ref=e1240]: Software Engineer (Backend) SE-2
+              - generic [ref=e1242]:
+                - generic "Detect Technologies" [ref=e1243]
+                - generic "Powered by Ambition Box" [ref=e1244]:
+                  - generic [ref=e1245]: 
+                  - generic [ref=e1246]: "3.4"
+                - link "106 Reviews" [ref=e1247] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/detect-technologies-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e1248]:
+                - listitem [ref=e1249]:
+                  - generic [ref=e1250]: 
+                  - generic "1-4 Yrs" [ref=e1251]
+                - listitem [ref=e1252]:
+                  - generic [ref=e1253]: 
+                  - generic "Not disclosed" [ref=e1254]
+                - listitem [ref=e1255]:
+                  - generic [ref=e1256]: 
+                  - generic "Chennai" [ref=e1257]
+            - generic [ref=e1258]:
+              - generic [ref=e1259]: 
+              - text: Experience with Web application security and Secure coding practicesPreferred candidate profile Experience with Angular, JavaScript frameworks / librariesHands on experience with MySQL, PostgreSQL or other RDBMSGood foundation in Data Structures a...
+            - list [ref=e1260]:
+              - listitem [ref=e1261]: Django
+              - listitem [ref=e1262]: MySQL
+              - listitem [ref=e1263]: AWS
+              - listitem [ref=e1264]: Microservices
+              - listitem [ref=e1265]: Python
+              - listitem [ref=e1266]: Angular
+              - listitem [ref=e1267]: Backend
+              - listitem [ref=e1268]: Software engineering
+            - generic [ref=e1269]:
+              - generic [ref=e1271]: 16 Days Ago
+              - generic [ref=e1272] [cursor=pointer]:
+                - generic [ref=e1273]: 
+                - generic [ref=e1274]: save
+              - generic [ref=e1275] [cursor=pointer]:
+                - generic [ref=e1276]: 
+                - generic [ref=e1277]: Hide
+        - article [ref=e1278]:
+          - generic [ref=e1280]: 
+          - generic [ref=e1281]:
+            - generic [ref=e1283]:
+              - paragraph [ref=e1284]: Software Engineering (Cloud Craze Developer - My Cargill)
+              - generic [ref=e1286]:
+                - generic "Cargill" [ref=e1287]
+                - generic "Powered by Ambition Box" [ref=e1288]:
+                  - generic [ref=e1289]: 
+                  - generic [ref=e1290]: "3.9"
+                - link "2179 Reviews" [ref=e1291] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/cargill-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e1292]:
+                - listitem [ref=e1293]:
+                  - generic [ref=e1294]: 
+                  - generic "3-8 Yrs" [ref=e1295]
+                - listitem [ref=e1296]:
+                  - generic [ref=e1297]: 
+                  - generic "Not disclosed" [ref=e1298]
+                - listitem [ref=e1299]:
+                  - generic [ref=e1300]: 
+                  - generic "Bengaluru" [ref=e1301]
+            - generic [ref=e1302]:
+              - generic [ref=e1303]: 
+              - text: Minimum requirement of 2 years of relevant work experienceTypically reflects 3 years or more of relevant experience
+            - list [ref=e1304]:
+              - listitem [ref=e1305]: software engineering
+              - listitem [ref=e1306]: cloud
+              - listitem [ref=e1307]: technical support
+              - listitem [ref=e1308]: software development
+              - listitem [ref=e1309]: automation
+              - listitem [ref=e1310]: software deployment
+              - listitem [ref=e1311]: design
+              - listitem [ref=e1312]: software solutions
+            - generic [ref=e1313]:
+              - generic [ref=e1315]: 1 Day Ago
+              - generic [ref=e1316] [cursor=pointer]:
+                - generic [ref=e1317]: 
+                - generic [ref=e1318]: save
+              - generic [ref=e1319] [cursor=pointer]:
+                - generic [ref=e1320]: 
+                - generic [ref=e1321]: Hide
+        - article [ref=e1322]:
+          - generic [ref=e1324]: 
+          - generic [ref=e1325]:
+            - generic [ref=e1327]:
+              - paragraph [ref=e1328]: Automation Tester
+              - generic [ref=e1329]:
+                - generic "Recruito" [ref=e1331]
+                - generic "Posted by Recruito" [ref=e1332]
+              - list [ref=e1333]:
+                - listitem [ref=e1334]:
+                  - generic [ref=e1335]: 
+                  - generic "5-9 Yrs" [ref=e1336]
+                - listitem [ref=e1337]:
+                  - generic [ref=e1338]: 
+                  - generic "15-22.5 Lacs PA" [ref=e1339]
+                - listitem [ref=e1340]:
+                  - generic [ref=e1341]: 
+                  - generic "Remote" [ref=e1342]
+            - generic [ref=e1343]:
+              - generic [ref=e1344]: 
+              - text: Experience in Automation Testing Experience with automation framework development
+            - list [ref=e1345]:
+              - listitem [ref=e1346]: Automation Testing
+              - listitem [ref=e1347]: SDET
+              - listitem [ref=e1348]: Quality Assurance
+              - listitem [ref=e1349]: Quality
+              - listitem [ref=e1350]: Assurance
+              - listitem [ref=e1351]: Software testing
+              - listitem [ref=e1352]: Automation
+            - generic [ref=e1353]:
+              - generic [ref=e1355]: 2 Days Ago
+              - generic [ref=e1356] [cursor=pointer]:
+                - generic [ref=e1357]: 
+                - generic [ref=e1358]: save
+              - generic [ref=e1359] [cursor=pointer]:
+                - generic [ref=e1360]: 
+                - generic [ref=e1361]: Hide
+        - article [ref=e1362]:
+          - generic [ref=e1364]: 
+          - generic [ref=e1365]:
+            - generic [ref=e1367]:
+              - paragraph [ref=e1368]: Playwright Automation Test Engineer
+              - generic [ref=e1370]:
+                - generic "Newbie Soft Solutions" [ref=e1371]
+                - generic "Powered by Ambition Box" [ref=e1372]:
+                  - generic [ref=e1373]: 
+                  - generic [ref=e1374]: "3.6"
+                - link "26 Reviews" [ref=e1375] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/newbie-soft-solutions-pvt-ltd-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e1376]:
+                - listitem [ref=e1377]:
+                  - generic [ref=e1378]: 
+                  - generic "4-9 Yrs" [ref=e1379]
+                - listitem [ref=e1380]:
+                  - generic [ref=e1381]: 
+                  - generic "50,000-20 Lacs PA" [ref=e1382]
+                - listitem [ref=e1383]:
+                  - generic [ref=e1384]: 
+                  - generic "Hyderabad" [ref=e1385]
+            - generic [ref=e1386]:
+              - generic [ref=e1387]: 
+              - text: "Analyze defects reported by users or during testing activities to identify root causes and implement fixes. Job Requirements : . 4-9 years of experience in software testing with expertise in automation testing using Selenium WebDriverExperience wo..."
+            - list [ref=e1388]:
+              - listitem [ref=e1389]: Playwright Automation
+              - listitem [ref=e1390]: Automation
+              - listitem [ref=e1391]: Software Testing
+              - listitem [ref=e1392]: Automation testing
+              - listitem [ref=e1393]: Software
+            - generic [ref=e1394]:
+              - generic [ref=e1396]: 2 Days Ago
+              - generic [ref=e1397] [cursor=pointer]:
+                - generic [ref=e1398]: 
+                - generic [ref=e1399]: save
+              - generic [ref=e1400] [cursor=pointer]:
+                - generic [ref=e1401]: 
+                - generic [ref=e1402]: Hide
+        - article [ref=e1403]:
+          - generic [ref=e1405]: 
+          - generic [ref=e1406]:
+            - generic [ref=e1408]:
+              - paragraph [ref=e1409]: Automation Engineer
+              - generic [ref=e1411]:
+                - generic "Narwal Technologies" [ref=e1412]
+                - generic "Powered by Ambition Box" [ref=e1413]:
+                  - generic [ref=e1414]: 
+                  - generic [ref=e1415]: "2.0"
+                - link "5 Reviews" [ref=e1416] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/narwal-technologies-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e1417]:
+                - listitem [ref=e1418]:
+                  - generic [ref=e1419]: 
+                  - generic "5-9 Yrs" [ref=e1420]
+                - listitem [ref=e1421]:
+                  - generic [ref=e1422]: 
+                  - generic "Not disclosed" [ref=e1423]
+                - listitem [ref=e1424]:
+                  - generic [ref=e1425]: 
+                  - generic "Remote" [ref=e1426]
+            - generic [ref=e1427]:
+              - generic [ref=e1428]: 
+              - text: Certified as a Great Place to Work Experience :5+ Yrs ( 2+ Yrs Relevant exp in Playwright Mandatory)
+            - list [ref=e1429]:
+              - listitem [ref=e1430]: Playwright
+              - listitem [ref=e1431]: Playwright Automation
+              - listitem [ref=e1432]: TypeScript
+              - listitem [ref=e1433]: Automation engineering
+              - listitem [ref=e1434]: Automation
+            - generic [ref=e1435]:
+              - generic [ref=e1437]: 1 Day Ago
+              - generic [ref=e1438] [cursor=pointer]:
+                - generic [ref=e1439]: 
+                - generic [ref=e1440]: save
+              - generic [ref=e1441] [cursor=pointer]:
+                - generic [ref=e1442]: 
+                - generic [ref=e1443]: Hide
+        - article [ref=e1444]:
+          - generic [ref=e1446]: 
+          - generic [ref=e1447]:
+            - generic [ref=e1449]:
+              - paragraph [ref=e1450]: Automation Tester - Playwright
+              - generic "Jero Technologies" [ref=e1453]
+              - list [ref=e1454]:
+                - listitem [ref=e1455]:
+                  - generic [ref=e1456]: 
+                  - generic "5-10 Yrs" [ref=e1457]
+                - listitem [ref=e1458]:
+                  - generic [ref=e1459]: 
+                  - generic "Not disclosed" [ref=e1460]
+                - listitem [ref=e1461]:
+                  - generic [ref=e1462]: 
+                  - generic "Mumbai, Bengaluru, Delhi / NCR" [ref=e1463]
+            - generic [ref=e1464]:
+              - generic [ref=e1465]: 
+              - text: Qualifications . Bachelors degree in Computer Science, Information Technology, or related fieldPreferred) Exposure to healthcare / WFM systems and HIPAA compliance 6 years of QA experience across manual and automation testingStrong experience in P...
+            - list [ref=e1466]:
+              - listitem [ref=e1467]: Playwright
+              - listitem [ref=e1468]: Java
+              - listitem [ref=e1469]: Automation Tester
+              - listitem [ref=e1470]: Automation Testing
+              - listitem [ref=e1471]: Playwright Functional tester
+              - listitem [ref=e1472]: Functional testing
+              - listitem [ref=e1473]: Functional
+              - listitem [ref=e1474]: Software testing
+            - generic [ref=e1475]:
+              - generic [ref=e1477]: 1 Day Ago
+              - generic [ref=e1478] [cursor=pointer]:
+                - generic [ref=e1479]: 
+                - generic [ref=e1480]: save
+              - generic [ref=e1481] [cursor=pointer]:
+                - generic [ref=e1482]: 
+                - generic [ref=e1483]: Hide
+        - article [ref=e1484]:
+          - generic [ref=e1486]: 
+          - generic [ref=e1487]:
+            - generic [ref=e1489]:
+              - paragraph [ref=e1490]: Qa Automation Testing Engineer
+              - generic "Blutic India" [ref=e1493]
+              - list [ref=e1494]:
+                - listitem [ref=e1495]:
+                  - generic [ref=e1496]: 
+                  - generic "4-8 Yrs" [ref=e1497]
+                - listitem [ref=e1498]:
+                  - generic [ref=e1499]: 
+                  - generic "Not disclosed" [ref=e1500]
+                - listitem [ref=e1501]:
+                  - generic [ref=e1502]: 
+                  - generic "Hybrid - Bengaluru" [ref=e1503]
+            - generic [ref=e1504]:
+              - generic [ref=e1505]: 
+              - text: "Software Developer in Test (SDET) QA Automation( Immediate Joiner Preferred)Location: BangaloreExperience: 48 YearsAbout the RoleWe are looking for a highly motivated Software Developer in Test (SDET) to join our Quality Engineering team. The idea..."
+            - list [ref=e1506]:
+              - listitem [ref=e1507]: Python Selenium
+              - listitem [ref=e1508]: QA Automation
+              - listitem [ref=e1509]: Selenium Automation Testing
+              - listitem [ref=e1510]: Automation Selenium
+              - listitem [ref=e1511]: Automation Testing
+              - listitem [ref=e1512]: Selenium Automation
+              - listitem [ref=e1513]: Selenium
+              - listitem [ref=e1514]: Quality assurance
+            - generic [ref=e1515]:
+              - generic [ref=e1517]: 7 Days Ago
+              - generic [ref=e1518] [cursor=pointer]:
+                - generic [ref=e1519]: 
+                - generic [ref=e1520]: save
+              - generic [ref=e1521] [cursor=pointer]:
+                - generic [ref=e1522]: 
+                - generic [ref=e1523]: Hide
+        - article [ref=e1524]:
+          - generic [ref=e1525]:
+            - generic [ref=e1527]:
+              - paragraph [ref=e1528]: Selenium Automation- BOFA Professional
+              - generic [ref=e1530]:
+                - generic "Clifyx Technology" [ref=e1531]
+                - generic "Powered by Ambition Box" [ref=e1532]:
+                  - generic [ref=e1533]: 
+                  - generic [ref=e1534]: "3.2"
+                - link "33 Reviews" [ref=e1535] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/clifyx-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e1536]:
+                - listitem [ref=e1537]:
+                  - generic [ref=e1538]: 
+                  - generic "5-10 Yrs" [ref=e1539]
+                - listitem [ref=e1540]:
+                  - generic [ref=e1541]: 
+                  - generic "Not disclosed" [ref=e1542]
+                - listitem [ref=e1543]:
+                  - generic [ref=e1544]: 
+                  - generic "Bengaluru" [ref=e1545]
+            - generic [ref=e1546]:
+              - generic [ref=e1547]: 
+              - text: We are looking for a skilled Selenium Automation professional with strong proficiency and hands-on automation testing experienceThe ideal candidate should have 5 to 10 years of experience in the field. Experience in API testing and database manage...
+            - list [ref=e1548]:
+              - listitem [ref=e1549]: Maven
+              - listitem [ref=e1550]: github
+              - listitem [ref=e1551]: Automation testing
+              - listitem [ref=e1552]: API Testing
+              - listitem [ref=e1553]: jenkins
+              - listitem [ref=e1554]: Selenium
+              - listitem [ref=e1555]: Selenium Automation
+              - listitem [ref=e1556]: API
+            - generic [ref=e1557]:
+              - generic [ref=e1559]: 3 Days Ago
+              - generic [ref=e1560] [cursor=pointer]:
+                - generic [ref=e1561]: 
+                - generic [ref=e1562]: save
+              - generic [ref=e1563] [cursor=pointer]:
+                - generic [ref=e1564]: 
+                - generic [ref=e1565]: Hide
+        - article [ref=e1566]:
+          - generic [ref=e1567]:
+            - generic [ref=e1569]:
+              - paragraph [ref=e1570]: Software Dev Engineer I
+              - generic [ref=e1572]:
+                - generic "Swiggy" [ref=e1573]
+                - generic "Powered by Ambition Box" [ref=e1574]:
+                  - generic [ref=e1575]: 
+                  - generic [ref=e1576]: "3.7"
+                - link "5835 Reviews" [ref=e1577] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/swiggy-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e1578]:
+                - listitem [ref=e1579]:
+                  - generic [ref=e1580]: 
+                  - generic "1-3 Yrs" [ref=e1581]
+                - listitem [ref=e1582]:
+                  - generic [ref=e1583]: 
+                  - generic "Not disclosed" [ref=e1584]
+                - listitem [ref=e1585]:
+                  - generic [ref=e1586]: 
+                  - generic "Bengaluru" [ref=e1587]
+            - generic [ref=e1588]:
+              - generic [ref=e1589]: 
+              - text: From starting out as a hyperlocal food delivery service in 2014 to becoming a logistics hub of excellence today, our capabilities result not only in lightning-fast delivery for customers but also in a productive and fulfilling experience for our e...
+            - list [ref=e1590]:
+              - listitem [ref=e1591]: Computer science
+              - listitem [ref=e1592]: Software design
+              - listitem [ref=e1593]: Coding
+              - listitem [ref=e1594]: Agile
+              - listitem [ref=e1595]: Application development
+              - listitem [ref=e1596]: JSON
+              - listitem [ref=e1597]: SDK
+              - listitem [ref=e1598]: software quality
+            - generic [ref=e1599]:
+              - generic [ref=e1601]: 6 Days Ago
+              - generic [ref=e1602] [cursor=pointer]:
+                - generic [ref=e1603]: 
+                - generic [ref=e1604]: save
+              - generic [ref=e1605] [cursor=pointer]:
+                - generic [ref=e1606]: 
+                - generic [ref=e1607]: Hide
+        - article [ref=e1608]:
+          - generic [ref=e1610]: 
+          - generic [ref=e1611]:
+            - generic [ref=e1613]:
+              - paragraph [ref=e1614]: Software Development Engineer L1
+              - generic [ref=e1615]:
+                - generic "Apidel Technologies" [ref=e1617]
+                - generic "Posted by Apidel Technologies" [ref=e1618]
+              - list [ref=e1619]:
+                - listitem [ref=e1620]:
+                  - generic [ref=e1621]: 
+                  - generic "2-5 Yrs" [ref=e1622]
+                - listitem [ref=e1623]:
+                  - generic [ref=e1624]: 
+                  - generic "Not disclosed" [ref=e1625]
+                - listitem [ref=e1626]:
+                  - generic [ref=e1627]: 
+                  - generic "Bengaluru" [ref=e1628]
+            - generic [ref=e1629]:
+              - generic [ref=e1630]: 
+              - text: "Hands-on experience in developing web applicationsExperience: 2+ YearsStrong Problem-Solving Skills. Good to Have. SQL / NoSQL DatabasesIdeal Candidate. Strong backend development experience using JavaGood understanding of clean coding practices a..."
+            - list [ref=e1631]:
+              - listitem [ref=e1632]: Java
+              - listitem [ref=e1633]: Data Structures and Algorithms
+              - listitem [ref=e1634]: AWS
+              - listitem [ref=e1635]: Web Application Development
+              - listitem [ref=e1636]: Web Development
+              - listitem [ref=e1637]: Web application
+              - listitem [ref=e1638]: Software
+              - listitem [ref=e1639]: Software development
+            - generic [ref=e1640]:
+              - generic [ref=e1642]: 4 Days Ago
+              - generic [ref=e1643] [cursor=pointer]:
+                - generic [ref=e1644]: 
+                - generic [ref=e1645]: save
+              - generic [ref=e1646] [cursor=pointer]:
+                - generic [ref=e1647]: 
+                - generic [ref=e1648]: Hide
+        - article [ref=e1649]:
+          - generic [ref=e1651]: 
+          - generic [ref=e1652]:
+            - generic [ref=e1654]:
+              - paragraph [ref=e1655]: Software Tester
+              - generic [ref=e1656]:
+                - generic "Leading Client" [ref=e1658]
+                - generic "Posted by vhr Professional Services" [ref=e1659]
+              - list [ref=e1660]:
+                - listitem [ref=e1661]:
+                  - generic [ref=e1662]: 
+                  - generic "0-5 Yrs" [ref=e1663]
+                - listitem [ref=e1664]:
+                  - generic [ref=e1665]: 
+                  - generic "20-30 Lacs PA" [ref=e1666]
+                - listitem [ref=e1667]:
+                  - generic [ref=e1668]: 
+                  - generic "Remote" [ref=e1669]
+            - generic [ref=e1670]:
+              - generic [ref=e1671]: 
+              - text: Design and execute test cases to identify software defects. Collaborate with developers to resolve issues and ensure product quality. Perform regression, functional, and performance testing.
+            - list [ref=e1672]:
+              - listitem [ref=e1673]: QA Testing
+              - listitem [ref=e1674]: Software Testing
+              - listitem [ref=e1675]: Software
+              - listitem [ref=e1676]: Manual Testing
+              - listitem [ref=e1677]: QA
+              - listitem [ref=e1678]: Use Cases
+              - listitem [ref=e1679]: Test Data
+              - listitem [ref=e1680]: Feedback
+            - generic [ref=e1681]:
+              - generic [ref=e1683]: 3 Days Ago
+              - generic [ref=e1684] [cursor=pointer]:
+                - generic [ref=e1685]: 
+                - generic [ref=e1686]: save
+              - generic [ref=e1687] [cursor=pointer]:
+                - generic [ref=e1688]: 
+                - generic [ref=e1689]: Hide
+        - article [ref=e1690]:
+          - generic [ref=e1692]: 
+          - generic [ref=e1693]:
+            - generic [ref=e1695]:
+              - paragraph [ref=e1696]: Software Engineer
+              - generic [ref=e1698]:
+                - generic "Hitech It Services" [ref=e1699]
+                - generic "Powered by Ambition Box" [ref=e1700]:
+                  - generic [ref=e1701]: 
+                  - generic [ref=e1702]: "4.6"
+                - link "13 Reviews" [ref=e1703] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/hitech-it-services-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e1704]:
+                - listitem [ref=e1705]:
+                  - generic [ref=e1706]: 
+                  - generic "3-4 Yrs" [ref=e1707]
+                - listitem [ref=e1708]:
+                  - generic [ref=e1709]: 
+                  - generic "Not disclosed" [ref=e1710]
+                - listitem [ref=e1711]:
+                  - generic [ref=e1712]: 
+                  - generic "Hybrid - Pune" [ref=e1713]
+            - generic [ref=e1714]:
+              - generic [ref=e1715]: 
+              - text: "Job Title: Software EngineerExperience: 3-4 YearsEmployment Type: Full-time Job SummaryWe are looking for a skilled Software Engineer with 3 years of experience in developing and maintaining web applications using the Microsoft technology stack. T..."
+            - list [ref=e1716]:
+              - listitem [ref=e1717]: .NET
+              - listitem [ref=e1718]: Angular
+              - listitem [ref=e1719]: .NET Core
+              - listitem [ref=e1720]: AZURE
+              - listitem [ref=e1721]: Fullstack Development
+              - listitem [ref=e1722]: Core
+              - listitem [ref=e1723]: Software
+              - listitem [ref=e1724]: Development
+            - generic [ref=e1725]:
+              - generic [ref=e1727]: 4 Days Ago
+              - generic [ref=e1728] [cursor=pointer]:
+                - generic [ref=e1729]: 
+                - generic [ref=e1730]: save
+              - generic [ref=e1731] [cursor=pointer]:
+                - generic [ref=e1732]: 
+                - generic [ref=e1733]: Hide
+        - article [ref=e1734]:
+          - generic [ref=e1736]: 
+          - generic [ref=e1737]:
+            - generic [ref=e1739]:
+              - paragraph [ref=e1740]: Software Engineer - Cloud Native & Microservices (AWS)
+              - generic [ref=e1742]:
+                - generic "Experian" [ref=e1743]
+                - generic "Powered by Ambition Box" [ref=e1744]:
+                  - generic [ref=e1745]: 
+                  - generic [ref=e1746]: "3.8"
+                - link "187 Reviews" [ref=e1747] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/experian-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e1748]:
+                - listitem [ref=e1749]:
+                  - generic [ref=e1750]: 
+                  - generic "3-7 Yrs" [ref=e1751]
+                - listitem [ref=e1752]:
+                  - generic [ref=e1753]: 
+                  - generic "Not disclosed" [ref=e1754]
+                - listitem [ref=e1755]:
+                  - generic [ref=e1756]: 
+                  - generic "Hyderabad" [ref=e1757]
+            - generic [ref=e1758]:
+              - generic [ref=e1759]: 
+              - text: Qualified with a degree in BSc in Computer Science, MCA in Computer Science, Bachelor of Technology in Engineering, or higher. Preference for technologyand languageagnostic engineers. . Proficient in writing high-quality unit and integration tests...
+            - list [ref=e1760]:
+              - listitem [ref=e1761]: Java
+              - listitem [ref=e1762]: Golang
+              - listitem [ref=e1763]: Cd
+              - listitem [ref=e1764]: Github
+              - listitem [ref=e1765]: Continuous Delivery
+              - listitem [ref=e1766]: Software Testing
+              - listitem [ref=e1767]: Spring
+              - listitem [ref=e1768]: Microservices
+            - generic [ref=e1769]:
+              - generic [ref=e1771]: 10 Days Ago
+              - generic [ref=e1772] [cursor=pointer]:
+                - generic [ref=e1773]: 
+                - generic [ref=e1774]: save
+              - generic [ref=e1775] [cursor=pointer]:
+                - generic [ref=e1776]: 
+                - generic [ref=e1777]: Hide
+        - article [ref=e1778]:
+          - generic [ref=e1780]: 
+          - generic [ref=e1781]:
+            - generic [ref=e1783]:
+              - paragraph [ref=e1784]: QA Tester
+              - generic [ref=e1785]:
+                - generic "Iitjobs Inc." [ref=e1787]
+                - generic "Posted by Iitjobs Inc." [ref=e1788]
+              - list [ref=e1789]:
+                - listitem [ref=e1790]:
+                  - generic [ref=e1791]: 
+                  - generic "4-9 Yrs" [ref=e1792]
+                - listitem [ref=e1793]:
+                  - generic [ref=e1794]: 
+                  - generic "Not disclosed" [ref=e1795]
+                - listitem [ref=e1796]:
+                  - generic [ref=e1797]: 
+                  - generic "Hybrid - Pune" [ref=e1798]
+            - generic [ref=e1799]:
+              - generic [ref=e1800]: 
+              - text: "Experience: 3+ Years"
+            - list [ref=e1801]:
+              - listitem [ref=e1802]: VMware
+              - listitem [ref=e1803]: QA Testing
+              - listitem [ref=e1804]: UI
+              - listitem [ref=e1805]: API
+              - listitem [ref=e1806]: Virtualization
+              - listitem [ref=e1807]: Linux
+              - listitem [ref=e1808]: Selenium
+              - listitem [ref=e1809]: Production installation
+            - generic [ref=e1810]:
+              - generic [ref=e1812]: 1 Day Ago
+              - generic [ref=e1813] [cursor=pointer]:
+                - generic [ref=e1814]: 
+                - generic [ref=e1815]: save
+              - generic [ref=e1816] [cursor=pointer]:
+                - generic [ref=e1817]: 
+                - generic [ref=e1818]: Hide
+        - article [ref=e1819]:
+          - generic [ref=e1821]: 
+          - generic [ref=e1822]:
+            - generic [ref=e1824]:
+              - paragraph [ref=e1825]: Qa Automation Testing Engineer
+              - generic [ref=e1826]:
+                - generic "Tekgence" [ref=e1828]
+                - generic "Posted by Tekgence" [ref=e1829]
+              - list [ref=e1830]:
+                - listitem [ref=e1831]:
+                  - generic [ref=e1832]: 
+                  - generic "4-6 Yrs" [ref=e1833]
+                - listitem [ref=e1834]:
+                  - generic [ref=e1835]: 
+                  - generic "Not disclosed" [ref=e1836]
+                - listitem [ref=e1837]:
+                  - generic [ref=e1838]: 
+                  - generic "Hyderabad" [ref=e1839]
+            - generic [ref=e1840]:
+              - generic [ref=e1841]: 
+              - text: "Years of exp: 4 to 6 yearsTechnical Skills:C# or JAVASeleniumBDD CucumberNunit, Postman/ Rest AssuredApplication backend services & database testing AgileProcess Skills:Participate as core member of agile team across all planning, analysis, design..."
+            - list [ref=e1842]:
+              - listitem [ref=e1843]: Automation Testing
+              - listitem [ref=e1844]: QA Automation
+              - listitem [ref=e1845]: Java Selenium
+              - listitem [ref=e1846]: BDD Cucumber
+              - listitem [ref=e1847]: API Testing
+              - listitem [ref=e1848]: Javascript
+              - listitem [ref=e1849]: Selenium
+              - listitem [ref=e1850]: Quality assurance
+            - generic [ref=e1851]:
+              - generic [ref=e1853]: 1 Day Ago
+              - generic [ref=e1854] [cursor=pointer]:
+                - generic [ref=e1855]: 
+                - generic [ref=e1856]: save
+              - generic [ref=e1857] [cursor=pointer]:
+                - generic [ref=e1858]: 
+                - generic [ref=e1859]: Hide
+        - article [ref=e1860]:
+          - generic [ref=e1861]:
+            - generic [ref=e1863]:
+              - paragraph [ref=e1864]: QA Engineer (Playwright and Type script)
+              - generic [ref=e1866]:
+                - generic "Sigmasoft Infotech" [ref=e1867]
+                - generic "Powered by Ambition Box" [ref=e1868]:
+                  - generic [ref=e1869]: 
+                  - generic [ref=e1870]: "3.5"
+                - link "85 Reviews" [ref=e1871] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/sigmasoft-infotech-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e1872]:
+                - listitem [ref=e1873]:
+                  - generic [ref=e1874]: 
+                  - generic "5-12 Yrs" [ref=e1875]
+                - listitem [ref=e1876]:
+                  - generic [ref=e1877]: 
+                  - generic "Not disclosed" [ref=e1878]
+                - listitem [ref=e1879]:
+                  - generic [ref=e1880]: 
+                  - generic "Bengaluru" [ref=e1881]
+            - generic [ref=e1882]:
+              - generic [ref=e1883]: 
+              - text: The ideal candidate will have a strong background in quality assurance and experience working with these technologies. Experience with test automation frameworks and tools.
+            - list [ref=e1884]:
+              - listitem [ref=e1885]: test automation
+              - listitem [ref=e1886]: version control
+              - listitem [ref=e1887]: defect tracking
+              - listitem [ref=e1888]: qa engineer
+              - listitem [ref=e1889]: agile development
+              - listitem [ref=e1890]: communication and interpersonal skills
+              - listitem [ref=e1891]: programming languages
+              - listitem [ref=e1892]: qa
+            - generic [ref=e1893]:
+              - generic [ref=e1895]: 2 Days Ago
+              - generic [ref=e1896] [cursor=pointer]:
+                - generic [ref=e1897]: 
+                - generic [ref=e1898]: save
+              - generic [ref=e1899] [cursor=pointer]:
+                - generic [ref=e1900]: 
+                - generic [ref=e1901]: Hide
+        - article [ref=e1902]:
+          - generic [ref=e1904]: 
+          - generic [ref=e1905]:
+            - generic [ref=e1907]:
+              - paragraph [ref=e1908]: Automation Test Engineer
+              - generic [ref=e1910]:
+                - generic "Incedo" [ref=e1911]
+                - generic "Powered by Ambition Box" [ref=e1912]:
+                  - generic [ref=e1913]: 
+                  - generic [ref=e1914]: "2.9"
+                - link "1391 Reviews" [ref=e1915] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/incedo-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e1916]:
+                - listitem [ref=e1917]:
+                  - generic [ref=e1918]: 
+                  - generic "3-7 Yrs" [ref=e1919]
+                - listitem [ref=e1920]:
+                  - generic [ref=e1921]: 
+                  - generic "10-20 Lacs PA" [ref=e1922]
+                - listitem [ref=e1923]:
+                  - generic [ref=e1924]: 
+                  - generic "Hyderabad" [ref=e1925]
+            - generic [ref=e1926]:
+              - generic [ref=e1927]: 
+              - text: Required Skills Strong experience in functional testing with end-to-end validation including positive, negative, and edge scenarios Hands-on experience in integration testing and API validation Good understanding of QA methodologies and test desig...
+            - list [ref=e1928]:
+              - listitem [ref=e1929]: Java
+              - listitem [ref=e1930]: BDD
+              - listitem [ref=e1931]: Artificial Intelligence
+              - listitem [ref=e1932]: Selenium
+              - listitem [ref=e1933]: Cucumber
+              - listitem [ref=e1934]: Intelligence
+              - listitem [ref=e1935]: Automation
+              - listitem [ref=e1936]: Automation testing
+            - generic [ref=e1937]:
+              - generic [ref=e1939]: 3 Days Ago
+              - generic [ref=e1940] [cursor=pointer]:
+                - generic [ref=e1941]: 
+                - generic [ref=e1942]: save
+              - generic [ref=e1943] [cursor=pointer]:
+                - generic [ref=e1944]: 
+                - generic [ref=e1945]: Hide
+        - article [ref=e1946]:
+          - generic [ref=e1948]: 
+          - generic [ref=e1949]:
+            - generic [ref=e1951]:
+              - paragraph [ref=e1952]: Qa Engineer
+              - generic [ref=e1953]:
+                - generic "Brace Infotech Private Limited" [ref=e1955]
+                - generic "Posted by Brace Infotech" [ref=e1956]
+              - list [ref=e1957]:
+                - listitem [ref=e1958]:
+                  - generic [ref=e1959]: 
+                  - generic "4-8 Yrs" [ref=e1960]
+                - listitem [ref=e1961]:
+                  - generic [ref=e1962]: 
+                  - generic "Not disclosed" [ref=e1963]
+                - listitem [ref=e1964]:
+                  - generic [ref=e1965]: 
+                  - generic "Hybrid - Hyderabad" [ref=e1966]
+            - generic [ref=e1967]:
+              - generic [ref=e1968]: 
+              - text: Role & responsibilities Job Duties and ResponsibilitiesDesign, develop, and maintain UiPath automated test frameworks for UI, API, and backend testingWrite clean, maintainable, and reusable automation code using modern programming languagesCollabo...
+            - list [ref=e1969]:
+              - listitem [ref=e1970]: UiPath
+              - listitem [ref=e1971]: RPA UI Path
+              - listitem [ref=e1972]: Selenium Testing
+              - listitem [ref=e1973]: SDET
+              - listitem [ref=e1974]: Agile
+              - listitem [ref=e1975]: Quality assurance
+              - listitem [ref=e1976]: UI
+              - listitem [ref=e1977]: Quality assurance engineering
+            - generic [ref=e1978]:
+              - generic [ref=e1980]: 3 Days Ago
+              - generic [ref=e1981] [cursor=pointer]:
+                - generic [ref=e1982]: 
+                - generic [ref=e1983]: save
+              - generic [ref=e1984] [cursor=pointer]:
+                - generic [ref=e1985]: 
+                - generic [ref=e1986]: Hide
+        - article [ref=e1987]:
+          - generic [ref=e1989]: 
+          - generic [ref=e1990]:
+            - generic [ref=e1992]:
+              - paragraph [ref=e1993]: AI Engineer
+              - generic [ref=e1995]:
+                - generic "Cornerstone" [ref=e1996]
+                - generic "Powered by Ambition Box" [ref=e1997]:
+                  - generic [ref=e1998]: 
+                  - generic [ref=e1999]: "3.3"
+                - link "188 Reviews" [ref=e2000] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/cornerstone-ondemand-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e2001]:
+                - listitem [ref=e2002]:
+                  - generic [ref=e2003]: 
+                  - generic "2-7 Yrs" [ref=e2004]
+                - listitem [ref=e2005]:
+                  - generic [ref=e2006]: 
+                  - generic "Not disclosed" [ref=e2007]
+                - listitem [ref=e2008]:
+                  - generic [ref=e2009]: 
+                  - generic "Hyderabad" [ref=e2010]
+            - generic [ref=e2011]:
+              - generic [ref=e2012]: 
+              - text: "Role & responsibilities Job Title : AI EngineerLocation : Hyderabad, IndiaYears of Experience: 2+ years of hands-on software engineering experience, building and operating production systemsPosition OverviewWe are seeking a AI Engineer to design, ..."
+            - list [ref=e2013]:
+              - listitem [ref=e2014]: Java
+              - listitem [ref=e2015]: AI
+              - listitem [ref=e2016]: React
+              - listitem [ref=e2017]: LLM
+              - listitem [ref=e2018]: React.js
+              - listitem [ref=e2019]: Artificial Intelligence
+            - generic [ref=e2020]:
+              - generic [ref=e2022]: 2 Days Ago
+              - generic [ref=e2023] [cursor=pointer]:
+                - generic [ref=e2024]: 
+                - generic [ref=e2025]: save
+              - generic [ref=e2026] [cursor=pointer]:
+                - generic [ref=e2027]: 
+                - generic [ref=e2028]: Hide
+        - article [ref=e2029]:
+          - generic [ref=e2031]: 
+          - generic [ref=e2032]:
+            - generic [ref=e2034]:
+              - paragraph [ref=e2035]: Support Engineer (Backend)
+              - generic [ref=e2037]:
+                - generic "Backbase" [ref=e2038]
+                - generic "Powered by Ambition Box" [ref=e2039]:
+                  - generic [ref=e2040]: 
+                  - generic [ref=e2041]: "2.8"
+                - link "72 Reviews" [ref=e2042] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/backbase-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e2043]:
+                - listitem [ref=e2044]:
+                  - generic [ref=e2045]: 
+                  - generic "3-5 Yrs" [ref=e2046]
+                - listitem [ref=e2047]:
+                  - generic [ref=e2048]: 
+                  - generic "Not disclosed" [ref=e2049]
+                - listitem [ref=e2050]:
+                  - generic [ref=e2051]: 
+                  - generic "Hybrid - Hyderabad" [ref=e2052]
+            - generic [ref=e2053]:
+              - generic [ref=e2054]: 
+              - text: Bachelor s degree in Information Technology, Computer Science, or a related technical field (or equivalent practical experience) Therefore, all candidates must be based in Krak w or Guadalajara - no full remote option is availableFamiliarity with ...
+            - list [ref=e2055]:
+              - listitem [ref=e2056]: Networking
+              - listitem [ref=e2057]: Ci/Cd
+              - listitem [ref=e2058]: Kubernetes
+              - listitem [ref=e2059]: Jenkins
+              - listitem [ref=e2060]: DevOps
+              - listitem [ref=e2061]: Github
+              - listitem [ref=e2062]: Continuous Integration
+              - listitem [ref=e2063]: Cd
+            - generic [ref=e2064]:
+              - generic [ref=e2066]: 3 Days Ago
+              - generic [ref=e2067] [cursor=pointer]:
+                - generic [ref=e2068]: 
+                - generic [ref=e2069]: save
+              - generic [ref=e2070] [cursor=pointer]:
+                - generic [ref=e2071]: 
+                - generic [ref=e2072]: Hide
+        - article [ref=e2073]:
+          - generic [ref=e2075]: 
+          - generic [ref=e2076]:
+            - generic [ref=e2078]:
+              - paragraph [ref=e2079]: Frontend Developer
+              - generic [ref=e2081]:
+                - generic "Incred" [ref=e2082]
+                - generic "Powered by Ambition Box" [ref=e2083]:
+                  - generic [ref=e2084]: 
+                  - generic [ref=e2085]: "3.8"
+                - link "521 Reviews" [ref=e2086] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/incred-finance-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e2087]:
+                - listitem [ref=e2088]:
+                  - generic [ref=e2089]: 
+                  - generic "2-4 Yrs" [ref=e2090]
+                - listitem [ref=e2091]:
+                  - generic [ref=e2092]: 
+                  - generic "Not disclosed" [ref=e2093]
+                - listitem [ref=e2094]:
+                  - generic [ref=e2095]: 
+                  - generic "Bengaluru" [ref=e2096]
+            - generic [ref=e2097]:
+              - generic [ref=e2098]: 
+              - text: "Troubleshoot issues and debug code to resolve defects. Job Requirements : . 2-4 years of experience in software development with a focus on frontend technologies (Angular)Experience working with REST APIs from the client-side using HTTP requests"
+            - list [ref=e2099]:
+              - listitem [ref=e2100]: Angular
+              - listitem [ref=e2101]: Angularjs
+              - listitem [ref=e2102]: CSS
+              - listitem [ref=e2103]: Rxjs
+              - listitem [ref=e2104]: HTML
+              - listitem [ref=e2105]: Ngrx
+              - listitem [ref=e2106]: Frontend Development
+              - listitem [ref=e2107]: Development
+            - generic [ref=e2108]:
+              - generic [ref=e2110]: 9 Days Ago
+              - generic [ref=e2111] [cursor=pointer]:
+                - generic [ref=e2112]: 
+                - generic [ref=e2113]: save
+              - generic [ref=e2114] [cursor=pointer]:
+                - generic [ref=e2115]: 
+                - generic [ref=e2116]: Hide
+        - article [ref=e2117]:
+          - generic [ref=e2119]: 
+          - generic [ref=e2120]:
+            - generic [ref=e2122]:
+              - paragraph [ref=e2123]: Automation Testing
+              - generic [ref=e2124]:
+                - generic "Black Turtle" [ref=e2126]
+                - generic "Posted by Black Turtle" [ref=e2127]
+              - list [ref=e2128]:
+                - listitem [ref=e2129]:
+                  - generic [ref=e2130]: 
+                  - generic "4-9 Yrs" [ref=e2131]
+                - listitem [ref=e2132]:
+                  - generic [ref=e2133]: 
+                  - generic "Not disclosed" [ref=e2134]
+                - listitem [ref=e2135]:
+                  - generic [ref=e2136]: 
+                  - generic "Pune, Bengaluru" [ref=e2137]
+            - generic [ref=e2138]:
+              - generic [ref=e2139]: 
+              - text: "Preferred (Good to have): ISTQB Certified. Experience in designing, executing, and managing automation testing activities for software applicationsAssociate must have experience in Designing and creating automation test plans, test cases, and test..."
+            - list [ref=e2140]:
+              - listitem [ref=e2141]: ISTQB
+              - listitem [ref=e2142]: Java
+              - listitem [ref=e2143]: Playwright
+              - listitem [ref=e2144]: Automation Testing
+              - listitem [ref=e2145]: Selenium
+              - listitem [ref=e2146]: Test Automation
+              - listitem [ref=e2147]: Software testing
+              - listitem [ref=e2148]: Automation
+            - generic [ref=e2149]:
+              - generic [ref=e2151]: 3 Days Ago
+              - generic [ref=e2152] [cursor=pointer]:
+                - generic [ref=e2153]: 
+                - generic [ref=e2154]: save
+              - generic [ref=e2155] [cursor=pointer]:
+                - generic [ref=e2156]: 
+                - generic [ref=e2157]: Hide
+        - article [ref=e2158]:
+          - generic [ref=e2160]: 
+          - generic [ref=e2161]:
+            - generic [ref=e2163]:
+              - paragraph [ref=e2164]: DevOps Engineer (Customer Enablement)
+              - generic [ref=e2165]:
+                - generic "Aliqan Services" [ref=e2167]
+                - generic "Posted by Aliqan Services" [ref=e2168]
+              - list [ref=e2169]:
+                - listitem [ref=e2170]:
+                  - generic [ref=e2171]: 
+                  - generic "3-6 Yrs" [ref=e2172]
+                - listitem [ref=e2173]:
+                  - generic [ref=e2174]: 
+                  - generic "Not disclosed" [ref=e2175]
+                - listitem [ref=e2176]:
+                  - generic [ref=e2177]: 
+                  - generic "Hybrid - Bengaluru" [ref=e2178]
+            - generic [ref=e2179]:
+              - generic [ref=e2180]: 
+              - text: 3-4 years of experience in DevOps, SRE, Cloud Operations, Platform Engineering, Production Engineering, or a related role.Exp supporting highly available SaaS or cloud platforms in a production envi.Exp in AWS, GCP, Microsoft Azure, Kubernetes& Te...
+            - list [ref=e2181]:
+              - listitem [ref=e2182]: GCP
+              - listitem [ref=e2183]: SaaS
+              - listitem [ref=e2184]: Microsoft Azure
+              - listitem [ref=e2185]: Production Support
+              - listitem [ref=e2186]: AWS
+              - listitem [ref=e2187]: Microsoft
+              - listitem [ref=e2188]: Devops
+              - listitem [ref=e2189]: Production
+            - generic [ref=e2190]:
+              - generic [ref=e2192]: 4 Days Ago
+              - generic [ref=e2193] [cursor=pointer]:
+                - generic [ref=e2194]: 
+                - generic [ref=e2195]: save
+              - generic [ref=e2196] [cursor=pointer]:
+                - generic [ref=e2197]: 
+                - generic [ref=e2198]: Hide
+        - article [ref=e2199]:
+          - generic [ref=e2201]: 
+          - generic [ref=e2202]:
+            - generic [ref=e2204]:
+              - paragraph [ref=e2205]: Automation Test Engineer
+              - generic [ref=e2206]:
+                - generic "Mobilution It Systems" [ref=e2208]
+                - generic "Posted by Mobilution It Systems" [ref=e2209]
+              - list [ref=e2210]:
+                - listitem [ref=e2211]:
+                  - generic [ref=e2212]: 
+                  - generic "3-7 Yrs" [ref=e2213]
+                - listitem [ref=e2214]:
+                  - generic [ref=e2215]: 
+                  - generic "7-14 Lacs PA" [ref=e2216]
+                - listitem [ref=e2217]:
+                  - generic [ref=e2218]: 
+                  - generic "Pune, Hyderabad, Bengaluru" [ref=e2219]
+            - generic [ref=e2220]:
+              - generic [ref=e2221]: 
+              - text: Experience with scripting languages (Selenium, RTF, QTP VB Script, and Java Script) is necessary. etail Merchandising System Knowledge required, API - Application Programming Interface. .
+            - list [ref=e2222]:
+              - listitem [ref=e2223]: Retail Merchandising
+              - listitem [ref=e2224]: Azure DevOps VSTS
+              - listitem [ref=e2225]: Automation Testing
+              - listitem [ref=e2226]: Selenium
+              - listitem [ref=e2227]: QTP
+              - listitem [ref=e2228]: Test Automation
+              - listitem [ref=e2229]: SOAP UI
+              - listitem [ref=e2230]: Java Selenium
+            - generic [ref=e2231]:
+              - generic [ref=e2233]: 3 Days Ago
+              - generic [ref=e2234] [cursor=pointer]:
+                - generic [ref=e2235]: 
+                - generic [ref=e2236]: save
+              - generic [ref=e2237] [cursor=pointer]:
+                - generic [ref=e2238]: 
+                - generic [ref=e2239]: Hide
+        - article [ref=e2240]:
+          - generic [ref=e2242]: 
+          - generic [ref=e2243]:
+            - generic [ref=e2245]:
+              - paragraph [ref=e2246]: Application Engineer - I(AWMT)
+              - generic [ref=e2248]:
+                - generic "Vanguard" [ref=e2249]
+                - generic "Powered by Ambition Box" [ref=e2250]:
+                  - generic [ref=e2251]: 
+                  - generic [ref=e2252]: "2.7"
+                - link "11 Reviews" [ref=e2253] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/vanguard-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e2254]:
+                - listitem [ref=e2255]:
+                  - generic [ref=e2256]: 
+                  - generic "3-6 Yrs" [ref=e2257]
+                - listitem [ref=e2258]:
+                  - generic [ref=e2259]: 
+                  - generic "Not disclosed" [ref=e2260]
+                - listitem [ref=e2261]:
+                  - generic [ref=e2262]: 
+                  - generic "Hyderabad" [ref=e2263]
+            - generic [ref=e2264]:
+              - generic [ref=e2265]: 
+              - text: Minimum 1+ years of experience in application development, system analysis, and database management. . Bachelors degree (BE / BTech) in Computer Science or IT, or Bachelors in Computer Applications (BCA). Strong knowledge of Debugging in AWS and l...
+            - list [ref=e2266]:
+              - listitem [ref=e2267]: Agile
+              - listitem [ref=e2268]: Java
+              - listitem [ref=e2269]: Automation
+              - listitem [ref=e2270]: Bdd
+              - listitem [ref=e2271]: Apis
+              - listitem [ref=e2272]: Artificial Intelligence
+              - listitem [ref=e2273]: Debugging
+              - listitem [ref=e2274]: Ai
+            - generic [ref=e2275]:
+              - generic [ref=e2277]: 2 Days Ago
+              - generic [ref=e2278] [cursor=pointer]:
+                - generic [ref=e2279]: 
+                - generic [ref=e2280]: save
+              - generic [ref=e2281] [cursor=pointer]:
+                - generic [ref=e2282]: 
+                - generic [ref=e2283]: Hide
+        - article [ref=e2284]:
+          - generic [ref=e2286]: 
+          - generic [ref=e2287]:
+            - generic [ref=e2289]:
+              - paragraph [ref=e2290]: QE Analyst
+              - generic [ref=e2292]:
+                - generic "Prowess Selling Skills" [ref=e2293]
+                - generic "Powered by Ambition Box" [ref=e2294]:
+                  - generic [ref=e2295]: 
+                  - generic [ref=e2296]: "3.9"
+                - link "88 Reviews" [ref=e2297] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/prowess-selling-skills-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e2298]:
+                - listitem [ref=e2299]:
+                  - generic [ref=e2300]: 
+                  - generic "5-7 Yrs" [ref=e2301]
+                - listitem [ref=e2302]:
+                  - generic [ref=e2303]: 
+                  - generic "8-15 Lacs PA" [ref=e2304]
+                - listitem [ref=e2305]:
+                  - generic [ref=e2306]: 
+                  - generic "Pune(Kothrud)" [ref=e2307]
+            - generic [ref=e2308]:
+              - generic [ref=e2309]: 
+              - text: Drive automation-first QE with focus on mobile testing using Selenium and API automation. Build scalable frameworks, data validations scripts and ensure continuous quality. Mentor teams and enhance coverage with intelligent test strategies.We pref...
+            - list [ref=e2310]:
+              - listitem [ref=e2311]: ios automation
+              - listitem [ref=e2312]: Test coverage analysis Test planning
+              - listitem [ref=e2313]: Android
+              - listitem [ref=e2314]: Selenium
+              - listitem [ref=e2315]: Python
+              - listitem [ref=e2316]: T-SQL
+              - listitem [ref=e2317]: Functional / Non-functional testing
+              - listitem [ref=e2318]: generative ai
+            - generic [ref=e2319]:
+              - generic [ref=e2321]: 3 Days Ago
+              - generic [ref=e2322] [cursor=pointer]:
+                - generic [ref=e2323]: 
+                - generic [ref=e2324]: save
+              - generic [ref=e2325] [cursor=pointer]:
+                - generic [ref=e2326]: 
+                - generic [ref=e2327]: Hide
+        - article [ref=e2328]:
+          - generic [ref=e2330]: 
+          - generic [ref=e2331]:
+            - generic [ref=e2333]:
+              - paragraph [ref=e2334]: QE Automation Engineer
+              - generic [ref=e2336]:
+                - generic "Neuronimbus Software Services" [ref=e2337]
+                - generic "Powered by Ambition Box" [ref=e2338]:
+                  - generic [ref=e2339]: 
+                  - generic [ref=e2340]: "4.1"
+                - link "77 Reviews" [ref=e2341] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/neuronimbus-software-services-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e2342]:
+                - listitem [ref=e2343]:
+                  - generic [ref=e2344]: 
+                  - generic "4-9 Yrs" [ref=e2345]
+                - listitem [ref=e2346]:
+                  - generic [ref=e2347]: 
+                  - generic "Not disclosed" [ref=e2348]
+                - listitem [ref=e2349]:
+                  - generic [ref=e2350]: 
+                  - generic "Chennai, Bengaluru" [ref=e2351]
+            - generic [ref=e2352]:
+              - generic [ref=e2353]: 
+              - text: "Job Title: QE Automation EngineerExperience: 4-10 Years Location: Chennai / Bangalore Job SummaryWe are seeking a skilled QE Automation Engineer with strong expertise in test automation for Banking and Financial Services applications. The ideal ca..."
+            - list [ref=e2354]:
+              - listitem [ref=e2355]: Java
+              - listitem [ref=e2356]: Automation Engineer
+              - listitem [ref=e2357]: QE
+              - listitem [ref=e2358]: Selenium
+              - listitem [ref=e2359]: Maven
+              - listitem [ref=e2360]: CI/CD
+              - listitem [ref=e2361]: Azure DevOps
+              - listitem [ref=e2362]: Devops
+            - generic [ref=e2363]:
+              - generic [ref=e2365]: 1 Day Ago
+              - generic [ref=e2366] [cursor=pointer]:
+                - generic [ref=e2367]: 
+                - generic [ref=e2368]: save
+              - generic [ref=e2369] [cursor=pointer]:
+                - generic [ref=e2370]: 
+                - generic [ref=e2371]: Hide
+        - article [ref=e2372]:
+          - generic [ref=e2374]: 
+          - generic [ref=e2375]:
+            - generic [ref=e2377]:
+              - paragraph [ref=e2378]: Programmer (Dev)
+              - generic [ref=e2380]:
+                - generic "Persistent" [ref=e2381]
+                - generic "Powered by Ambition Box" [ref=e2382]:
+                  - generic [ref=e2383]: 
+                  - generic [ref=e2384]: "3.6"
+                - link "5200 Reviews" [ref=e2385] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/persistent-systems-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e2386]:
+                - listitem [ref=e2387]:
+                  - generic [ref=e2388]: 
+                  - generic "2-5 Yrs" [ref=e2389]
+                - listitem [ref=e2390]:
+                  - generic [ref=e2391]: 
+                  - generic "Not disclosed" [ref=e2392]
+                - listitem [ref=e2393]:
+                  - generic [ref=e2394]: 
+                  - generic "Pune" [ref=e2395]
+            - generic [ref=e2396]:
+              - generic [ref=e2397]: 
+              - text: "Solid C#/.NET fundamentals and ASP.NET Core Web API experienceWe invite applications from all qualified individuals, including those with disabilities, and regardless of gender or gender preferenceExperience: 2 to 5 Years Good engineering practice..."
+            - list [ref=e2398]:
+              - listitem [ref=e2399]: REST API
+              - listitem [ref=e2400]: .Net
+              - listitem [ref=e2401]: AWS
+              - listitem [ref=e2402]: API
+              - listitem [ref=e2403]: Dev
+              - listitem [ref=e2404]: Program
+              - listitem [ref=e2405]: Rest
+              - listitem [ref=e2406]: Programming
+            - generic [ref=e2407]:
+              - generic [ref=e2409]: 3 Days Ago
+              - generic [ref=e2410] [cursor=pointer]:
+                - generic [ref=e2411]: 
+                - generic [ref=e2412]: save
+              - generic [ref=e2413] [cursor=pointer]:
+                - generic [ref=e2414]: 
+                - generic [ref=e2415]: Hide
+        - article [ref=e2416]:
+          - generic [ref=e2418]: 
+          - generic [ref=e2419]:
+            - generic [ref=e2421]:
+              - paragraph [ref=e2422]: Test Engineer
+              - generic [ref=e2423]:
+                - generic "-----" [ref=e2425]
+                - generic "Posted by Tvaksa Technologies" [ref=e2426]
+              - list [ref=e2427]:
+                - listitem [ref=e2428]:
+                  - generic [ref=e2429]: 
+                  - generic "5-7 Yrs" [ref=e2430]
+                - listitem [ref=e2431]:
+                  - generic [ref=e2432]: 
+                  - generic "10-14 Lacs PA" [ref=e2433]
+                - listitem [ref=e2434]:
+                  - generic [ref=e2435]: 
+                  - generic "Chennai, Hyderabad, Bengaluru" [ref=e2436]
+            - generic [ref=e2437]:
+              - generic [ref=e2438]: 
+              - text: API Automation , Selenium, Java
+            - list [ref=e2439]:
+              - listitem [ref=e2440]: Selenium Testing
+              - listitem [ref=e2441]: API Testing
+              - listitem [ref=e2442]: Java Selenium
+              - listitem [ref=e2443]: Automation Testing
+              - listitem [ref=e2444]: API
+              - listitem [ref=e2445]: Automation
+              - listitem [ref=e2446]: Software testing
+              - listitem [ref=e2447]: Selenium
+            - generic [ref=e2448]:
+              - generic [ref=e2450]: 3 Days Ago
+              - generic [ref=e2451] [cursor=pointer]:
+                - generic [ref=e2452]: 
+                - generic [ref=e2453]: save
+              - generic [ref=e2454] [cursor=pointer]:
+                - generic [ref=e2455]: 
+                - generic [ref=e2456]: Hide
+        - article [ref=e2457]:
+          - generic [ref=e2458]:
+            - generic [ref=e2460]:
+              - paragraph [ref=e2461]: Associate Software Engineer
+              - generic [ref=e2463]:
+                - generic "Aditya Birla Insulators" [ref=e2464]
+                - generic "Powered by Ambition Box" [ref=e2465]:
+                  - generic [ref=e2466]: 
+                  - generic [ref=e2467]: "3.6"
+                - link "112 Reviews" [ref=e2468] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/aditya-birla-insulators-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e2469]:
+                - listitem [ref=e2470]:
+                  - generic [ref=e2471]: 
+                  - generic "5-10 Yrs" [ref=e2472]
+                - listitem [ref=e2473]:
+                  - generic [ref=e2474]: 
+                  - generic "Not disclosed" [ref=e2475]
+                - listitem [ref=e2476]:
+                  - generic [ref=e2477]: 
+                  - generic "Bengaluru" [ref=e2478]
+            - generic [ref=e2479]:
+              - generic [ref=e2480]: 
+              - text: We connect Sellers, Buyers, Logistics service providers, Lending partners, Payment solution providers on a unified digital backbone thereby creating end to end visibility and providing a B2C like fulfilment experience for the B2B ecosystem
+            - list [ref=e2481]:
+              - listitem [ref=e2482]: Procurement
+              - listitem [ref=e2483]: Backend
+              - listitem [ref=e2484]: Penetration
+              - listitem [ref=e2485]: Manager Technology
+              - listitem [ref=e2486]: payment gateways
+              - listitem [ref=e2487]: EPC
+              - listitem [ref=e2488]: E-commerce
+              - listitem [ref=e2489]: Customer experience
+            - generic [ref=e2490]:
+              - generic [ref=e2492]: 3 Days Ago
+              - generic [ref=e2493] [cursor=pointer]:
+                - generic [ref=e2494]: 
+                - generic [ref=e2495]: save
+              - generic [ref=e2496] [cursor=pointer]:
+                - generic [ref=e2497]: 
+                - generic [ref=e2498]: Hide
+        - article [ref=e2499]:
+          - generic [ref=e2501]: 
+          - generic [ref=e2502]:
+            - generic [ref=e2504]:
+              - paragraph [ref=e2505]: Data Engineer with DevOps
+              - generic [ref=e2507]:
+                - generic "Softility Tech Pvt. Ltd." [ref=e2508]
+                - generic "Powered by Ambition Box" [ref=e2509]:
+                  - generic [ref=e2510]: 
+                  - generic [ref=e2511]: "1.7"
+                - link "7 Reviews" [ref=e2512] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/sentini-geosol-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e2513]:
+                - listitem [ref=e2514]:
+                  - generic [ref=e2515]: 
+                  - generic "3-7 Yrs" [ref=e2516]
+                - listitem [ref=e2517]:
+                  - generic [ref=e2518]: 
+                  - generic "Not disclosed" [ref=e2519]
+                - listitem [ref=e2520]:
+                  - generic [ref=e2521]: 
+                  - generic "Hybrid - Hyderabad" [ref=e2522]
+            - generic [ref=e2523]:
+              - generic [ref=e2524]: 
+              - text: Experience with cloud data platforms (Spanner, BigQuery, Redshift, or similar) Masters degree in computer science, Data Engineering, Information Systems, or related fieldRequired Qualifications 3 5 years of hands-on experience in data engineering ...
+            - list [ref=e2525]:
+              - listitem [ref=e2526]: Data Engineering
+              - listitem [ref=e2527]: CI/CD
+              - listitem [ref=e2528]: Spark
+              - listitem [ref=e2529]: ETL Pipelines
+              - listitem [ref=e2530]: Python
+              - listitem [ref=e2531]: Airflow
+              - listitem [ref=e2532]: GIT
+              - listitem [ref=e2533]: Terraform
+            - generic [ref=e2534]:
+              - generic [ref=e2536]: 2 Days Ago
+              - generic [ref=e2537] [cursor=pointer]:
+                - generic [ref=e2538]: 
+                - generic [ref=e2539]: save
+              - generic [ref=e2540] [cursor=pointer]:
+                - generic [ref=e2541]: 
+                - generic [ref=e2542]: Hide
+        - article [ref=e2543]:
+          - generic [ref=e2545]: 
+          - generic [ref=e2546]:
+            - generic [ref=e2548]:
+              - paragraph [ref=e2549]: Software Engineer II
+              - generic [ref=e2551]:
+                - generic "Fujitsu" [ref=e2552]
+                - generic "Powered by Ambition Box" [ref=e2553]:
+                  - generic [ref=e2554]: 
+                  - generic [ref=e2555]: "3.8"
+                - link "3043 Reviews" [ref=e2556] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/fujitsu-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e2557]:
+                - listitem [ref=e2558]:
+                  - generic [ref=e2559]: 
+                  - generic "1-4 Yrs" [ref=e2560]
+                - listitem [ref=e2561]:
+                  - generic [ref=e2562]: 
+                  - generic "Not disclosed" [ref=e2563]
+                - listitem [ref=e2564]:
+                  - generic [ref=e2565]: 
+                  - generic "Bengaluru" [ref=e2566]
+            - generic [ref=e2567]:
+              - generic [ref=e2568]: 
+              - text: Overall 1 years of experience. Proficiency in Python / Java and experience with frameworks such as LangChain, LlamaIndex, Hugging Face Transformers, FastAPI, Flask and associated SDKs. Experience working with vector databases (Milvus, Chroma). Exp...
+            - list [ref=e2569]:
+              - listitem [ref=e2570]: Java
+              - listitem [ref=e2571]: Wireless
+              - listitem [ref=e2572]: Cd
+              - listitem [ref=e2573]: Google
+              - listitem [ref=e2574]: Automation
+              - listitem [ref=e2575]: Server
+              - listitem [ref=e2576]: Web Technologies
+              - listitem [ref=e2577]: Ci/Cd
+            - generic [ref=e2578]:
+              - generic [ref=e2580]: 6 Days Ago
+              - generic [ref=e2581] [cursor=pointer]:
+                - generic [ref=e2582]: 
+                - generic [ref=e2583]: save
+              - generic [ref=e2584] [cursor=pointer]:
+                - generic [ref=e2585]: 
+                - generic [ref=e2586]: Hide
+        - article [ref=e2587]:
+          - generic [ref=e2589]: 
+          - generic [ref=e2590]:
+            - generic [ref=e2592]:
+              - paragraph [ref=e2593]: AI Engineer
+              - generic [ref=e2595]:
+                - generic "Covasant Technologies" [ref=e2596]
+                - generic "Powered by Ambition Box" [ref=e2597]:
+                  - generic [ref=e2598]: 
+                  - generic [ref=e2599]: "3.9"
+                - link "35 Reviews" [ref=e2600] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/covasant-technologies-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e2601]:
+                - listitem [ref=e2602]:
+                  - generic [ref=e2603]: 
+                  - generic "1-6 Yrs" [ref=e2604]
+                - listitem [ref=e2605]:
+                  - generic [ref=e2606]: 
+                  - generic "Not disclosed" [ref=e2607]
+                - listitem [ref=e2608]:
+                  - generic [ref=e2609]: 
+                  - generic "Remote" [ref=e2610]
+            - generic [ref=e2611]:
+              - generic [ref=e2612]: 
+              - text: "Shift: US PST Night Shift Bachelors degree in Computer Science, AI, Data Science, Engineering, or related fieldRequired SkillsPreferred QualificationExperience: 1 - 6 YearsGood communication and problem-solving skills"
+            - list [ref=e2613]:
+              - listitem [ref=e2614]: generative ai
+              - listitem [ref=e2615]: SQL Scripting
+              - listitem [ref=e2616]: Python
+              - listitem [ref=e2617]: Chatgpt
+              - listitem [ref=e2618]: Large Language Model
+              - listitem [ref=e2619]: Claude Code
+              - listitem [ref=e2620]: Aiml
+              - listitem [ref=e2621]: Low Code
+            - generic [ref=e2622]:
+              - generic [ref=e2624]: 1 Day Ago
+              - generic [ref=e2625] [cursor=pointer]:
+                - generic [ref=e2626]: 
+                - generic [ref=e2627]: save
+              - generic [ref=e2628] [cursor=pointer]:
+                - generic [ref=e2629]: 
+                - generic [ref=e2630]: Hide
+        - article [ref=e2631]:
+          - generic [ref=e2633]: 
+          - generic [ref=e2634]:
+            - generic [ref=e2636]:
+              - paragraph [ref=e2637]: Artificial Intelligence Engineer-Remote-Immediate Joiners
+              - generic [ref=e2639]:
+                - generic "First Due" [ref=e2640]
+                - generic "Powered by Ambition Box" [ref=e2641]:
+                  - generic [ref=e2642]: 
+                  - generic [ref=e2643]: "4.0"
+                - link "7 Reviews" [ref=e2644] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/first-due-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e2645]:
+                - listitem [ref=e2646]:
+                  - generic [ref=e2647]: 
+                  - generic "3-7 Yrs" [ref=e2648]
+                - listitem [ref=e2649]:
+                  - generic [ref=e2650]: 
+                  - generic "Not disclosed" [ref=e2651]
+                - listitem [ref=e2652]:
+                  - generic [ref=e2653]: 
+                  - generic "Remote" [ref=e2654]
+            - generic [ref=e2655]:
+              - generic [ref=e2656]: 
+              - text: Roles & responsibilities• Write efficient, scalable code leveraging LLM capabilities. • Understands basic object-oriented programming, knows how to take a small abstract problem and implement a basic solution quickly • General architecture compone...
+            - list [ref=e2657]:
+              - listitem [ref=e2658]: generative ai
+              - listitem [ref=e2659]: RAG
+              - listitem [ref=e2660]: LLM
+              - listitem [ref=e2661]: AWS
+              - listitem [ref=e2662]: Python
+              - listitem [ref=e2663]: DevOps
+              - listitem [ref=e2664]: Intelligence
+              - listitem [ref=e2665]: Artificial Intelligence
+            - generic [ref=e2666]:
+              - generic [ref=e2668]: 1 Day Ago
+              - generic [ref=e2669] [cursor=pointer]:
+                - generic [ref=e2670]: 
+                - generic [ref=e2671]: save
+              - generic [ref=e2672] [cursor=pointer]:
+                - generic [ref=e2673]: 
+                - generic [ref=e2674]: Hide
+        - article [ref=e2675]:
+          - generic [ref=e2677]: 
+          - generic [ref=e2678]:
+            - generic [ref=e2680]:
+              - paragraph [ref=e2681]: Hiring For Automation QA Engineer - Remote
+              - generic [ref=e2683]:
+                - generic "HighSpring India LLP" [ref=e2684]
+                - generic "Powered by Ambition Box" [ref=e2685]:
+                  - generic [ref=e2686]: 
+                  - generic [ref=e2687]: "3.1"
+                - link "1039 Reviews" [ref=e2688] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/vaco-binary-semantics-llp-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e2689]:
+                - listitem [ref=e2690]:
+                  - generic [ref=e2691]: 
+                  - generic "5-10 Yrs" [ref=e2692]
+                - listitem [ref=e2693]:
+                  - generic [ref=e2694]: 
+                  - generic "Not disclosed" [ref=e2695]
+                - listitem [ref=e2696]:
+                  - generic [ref=e2697]: 
+                  - generic "Hyderabad" [ref=e2698]
+            - generic [ref=e2699]:
+              - generic [ref=e2700]: 
+              - text: "Shift: 0230 pm to 1130 pm ISTThe candidate must have strong expertise. in Playwright automation along with proficiency in Python or TypeScriptMinimum 2 years of hands-on Playwright automation required. . Proficient in Python programming and experi..."
+            - list [ref=e2701]:
+              - listitem [ref=e2702]: Automation
+              - listitem [ref=e2703]: API Testing
+              - listitem [ref=e2704]: Playwright
+              - listitem [ref=e2705]: Python
+              - listitem [ref=e2706]: SQL
+              - listitem [ref=e2707]: Selenium
+              - listitem [ref=e2708]: Quality assurance
+              - listitem [ref=e2709]: API
+            - generic [ref=e2710]:
+              - generic [ref=e2712]:
+                - img "icon" [ref=e2713]
+                - generic [ref=e2714]: Prefers women
+              - generic [ref=e2716]: 2 Days Ago
+              - generic [ref=e2717] [cursor=pointer]:
+                - generic [ref=e2718]: 
+                - generic [ref=e2719]: save
+              - generic [ref=e2720] [cursor=pointer]:
+                - generic [ref=e2721]: 
+                - generic [ref=e2722]: Hide
+        - article [ref=e2723]:
+          - generic [ref=e2725]: 
+          - generic [ref=e2726]:
+            - generic [ref=e2728]:
+              - paragraph [ref=e2729]: Software Engineer
+              - generic "Swift Product Life Cycle Management" [ref=e2732]
+              - list [ref=e2733]:
+                - listitem [ref=e2734]:
+                  - generic [ref=e2735]: 
+                  - generic "2-5 Yrs" [ref=e2736]
+                - listitem [ref=e2737]:
+                  - generic [ref=e2738]: 
+                  - generic "6-12 Lacs PA" [ref=e2739]
+                - listitem [ref=e2740]:
+                  - generic [ref=e2741]: 
+                  - generic "Pune(Viman Nagar)" [ref=e2742]
+            - generic [ref=e2743]:
+              - generic [ref=e2744]: 
+              - text: "Handle flexible development tasks across multiple domains as required Technical Skills Required: . Strong programming skills in C++, Java, VBExperience with development environments such as Visual Studio and Eclipse Experience in database technolo..."
+            - list [ref=e2745]:
+              - listitem [ref=e2746]: Java
+              - listitem [ref=e2747]: C++
+              - listitem [ref=e2748]: Creo Toolkit
+              - listitem [ref=e2749]: Python
+              - listitem [ref=e2750]: Software engineering
+              - listitem [ref=e2751]: Toolkit
+              - listitem [ref=e2752]: Software
+              - listitem [ref=e2753]: Creo
+            - generic [ref=e2754]:
+              - generic [ref=e2756]: 1 Day Ago
+              - generic [ref=e2757] [cursor=pointer]:
+                - generic [ref=e2758]: 
+                - generic [ref=e2759]: save
+              - generic [ref=e2760] [cursor=pointer]:
+                - generic [ref=e2761]: 
+                - generic [ref=e2762]: Hide
+        - article [ref=e2763]:
+          - generic [ref=e2765]: 
+          - generic [ref=e2766]:
+            - generic [ref=e2768]:
+              - paragraph [ref=e2769]: Test Engineer
+              - generic [ref=e2771]:
+                - generic "LTM" [ref=e2772]
+                - generic "Powered by Ambition Box" [ref=e2773]:
+                  - generic [ref=e2774]: 
+                  - generic [ref=e2775]: "3.6"
+                - link "27157 Reviews" [ref=e2776] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/ltm-limited-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e2777]:
+                - listitem [ref=e2778]:
+                  - generic [ref=e2779]: 
+                  - generic "4-9 Yrs" [ref=e2780]
+                - listitem [ref=e2781]:
+                  - generic [ref=e2782]: 
+                  - generic "Not disclosed" [ref=e2783]
+                - listitem [ref=e2784]:
+                  - generic [ref=e2785]: 
+                  - generic "Hybrid - Hyderabad, Indore" [ref=e2786]
+            - generic [ref=e2787]:
+              - generic [ref=e2788]: 
+              - text: Role & responsibilities 4+ YEARS in java script automation testing with rest assured and UFThas to be available for face 2 face interview on 11.julyCan reach us on 8531839431Location-indore, Hyderabadhas to be available for FACE TO FACE interview ...
+            - list [ref=e2789]:
+              - listitem [ref=e2790]: Rest Assured
+              - listitem [ref=e2791]: Javascript
+              - listitem [ref=e2792]: API Testing
+              - listitem [ref=e2793]: Software Testing
+              - listitem [ref=e2794]: API
+              - listitem [ref=e2795]: Software
+              - listitem [ref=e2796]: Rest
+              - listitem [ref=e2797]: Test engineering
+            - generic [ref=e2798]:
+              - generic [ref=e2800]: 8 Days Ago
+              - generic [ref=e2801] [cursor=pointer]:
+                - generic [ref=e2802]: 
+                - generic [ref=e2803]: save
+              - generic [ref=e2804] [cursor=pointer]:
+                - generic [ref=e2805]: 
+                - generic [ref=e2806]: Hide
+        - article [ref=e2807]:
+          - generic [ref=e2809]: 
+          - generic [ref=e2810]:
+            - generic [ref=e2812]:
+              - paragraph [ref=e2813]: Senior Automation QA Engineer
+              - generic [ref=e2815]:
+                - generic "Ciklum" [ref=e2816]
+                - generic "Powered by Ambition Box" [ref=e2817]:
+                  - generic [ref=e2818]: 
+                  - generic [ref=e2819]: "3.6"
+                - link "195 Reviews" [ref=e2820] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/ciklum-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e2821]:
+                - listitem [ref=e2822]:
+                  - generic [ref=e2823]: 
+                  - generic "5-12 Yrs" [ref=e2824]
+                - listitem [ref=e2825]:
+                  - generic [ref=e2826]: 
+                  - generic "Not disclosed" [ref=e2827]
+                - listitem [ref=e2828]:
+                  - generic [ref=e2829]: 
+                  - generic "Pune, Chennai, Remote" [ref=e2830]
+            - generic [ref=e2831]:
+              - generic [ref=e2832]: 
+              - text: Experience working with Selenium WebDriver for automating web application testingExperience working with Playwright
+            - list [ref=e2833]:
+              - listitem [ref=e2834]: Playwright
+              - listitem [ref=e2835]: Selenium
+              - listitem [ref=e2836]: Python
+              - listitem [ref=e2837]: SQL
+              - listitem [ref=e2838]: Quality assurance
+              - listitem [ref=e2839]: Automation
+              - listitem [ref=e2840]: Senior
+            - generic [ref=e2841]:
+              - generic [ref=e2843]: 1 Day Ago
+              - generic [ref=e2844] [cursor=pointer]:
+                - generic [ref=e2845]: 
+                - generic [ref=e2846]: save
+              - generic [ref=e2847] [cursor=pointer]:
+                - generic [ref=e2848]: 
+                - generic [ref=e2849]: Hide
+        - article [ref=e2850]:
+          - generic [ref=e2852]: 
+          - generic [ref=e2853]:
+            - generic [ref=e2855]:
+              - paragraph [ref=e2856]: Devops Engineer
+              - generic [ref=e2858]:
+                - generic "Databuzz" [ref=e2859]
+                - generic "Powered by Ambition Box" [ref=e2860]:
+                  - generic [ref=e2861]: 
+                  - generic [ref=e2862]: "4.1"
+                - link "7 Reviews" [ref=e2863] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/databuzz-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e2864]:
+                - listitem [ref=e2865]:
+                  - generic [ref=e2866]: 
+                  - generic "4-9 Yrs" [ref=e2867]
+                - listitem [ref=e2868]:
+                  - generic [ref=e2869]: 
+                  - generic "Not disclosed" [ref=e2870]
+                - listitem [ref=e2871]:
+                  - generic [ref=e2872]: 
+                  - generic "Hyderabad" [ref=e2873]
+            - generic [ref=e2874]:
+              - generic [ref=e2875]: 
+              - text: "Databuzz is hiring for *** Devops Engineer ***(3+ years)Please share your profile to sangeetha.akula@gmail.com ** Preferred candidates who are available to join in 15 - 20 days / ImmediatelyJob Role: Senior Devops EngineerJob type: full timeExp:3 ..."
+            - list [ref=e2876]:
+              - listitem [ref=e2877]: Azure
+              - listitem [ref=e2878]: Rest API
+              - listitem [ref=e2879]: DevOps
+              - listitem [ref=e2880]: AWS
+              - listitem [ref=e2881]: Python
+              - listitem [ref=e2882]: Cyber Security
+              - listitem [ref=e2883]: Cloud Support
+              - listitem [ref=e2884]: JSON
+            - generic [ref=e2885]:
+              - generic [ref=e2887]: 2 Days Ago
+              - generic [ref=e2888] [cursor=pointer]:
+                - generic [ref=e2889]: 
+                - generic [ref=e2890]: save
+              - generic [ref=e2891] [cursor=pointer]:
+                - generic [ref=e2892]: 
+                - generic [ref=e2893]: Hide
+        - article [ref=e2894]:
+          - generic [ref=e2896]: 
+          - generic [ref=e2897]:
+            - generic [ref=e2899]:
+              - paragraph [ref=e2900]: Developer, Agentic AI @Jaggaer, Hyderabad
+              - generic [ref=e2902]:
+                - generic "JAGGAER" [ref=e2903]
+                - generic "Powered by Ambition Box" [ref=e2904]:
+                  - generic [ref=e2905]: 
+                  - generic [ref=e2906]: "4.1"
+                - link "15 Reviews" [ref=e2907] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/jaggaer-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e2908]:
+                - listitem [ref=e2909]:
+                  - generic [ref=e2910]: 
+                  - generic "1-3 Yrs" [ref=e2911]
+                - listitem [ref=e2912]:
+                  - generic [ref=e2913]: 
+                  - generic "5-12 Lacs PA" [ref=e2914]
+                - listitem [ref=e2915]:
+                  - generic [ref=e2916]: 
+                  - generic "Hybrid - Hyderabad" [ref=e2917]
+            - generic [ref=e2918]:
+              - generic [ref=e2919]: 
+              - text: "Skills Required: . Strong coding Skills Experience: 1 to 3 Years."
+            - list [ref=e2920]:
+              - listitem [ref=e2921]: Agentic Ai
+              - listitem [ref=e2922]: Java
+              - listitem [ref=e2923]: Langgraph
+              - listitem [ref=e2924]: Coding
+              - listitem [ref=e2925]: React.js
+              - listitem [ref=e2926]: OOPS
+              - listitem [ref=e2927]: Python
+              - listitem [ref=e2928]: Artificial Intelligence
+            - generic [ref=e2929]:
+              - generic [ref=e2931]: 2 Days Ago
+              - generic [ref=e2932] [cursor=pointer]:
+                - generic [ref=e2933]: 
+                - generic [ref=e2934]: save
+              - generic [ref=e2935] [cursor=pointer]:
+                - generic [ref=e2936]: 
+                - generic [ref=e2937]: Hide
+        - article [ref=e2938]:
+          - generic [ref=e2940]: 
+          - generic [ref=e2941]:
+            - generic [ref=e2943]:
+              - paragraph [ref=e2944]: Application Platform Engineer
+              - generic [ref=e2946]:
+                - generic "Kloudportal Technology Solutions" [ref=e2947]
+                - generic "Powered by Ambition Box" [ref=e2948]:
+                  - generic [ref=e2949]: 
+                  - generic [ref=e2950]: "4.8"
+                - link "27 Reviews" [ref=e2951] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/kloudportal-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e2952]:
+                - listitem [ref=e2953]:
+                  - generic [ref=e2954]: 
+                  - generic "2-5 Yrs" [ref=e2955]
+                - listitem [ref=e2956]:
+                  - generic [ref=e2957]: 
+                  - generic "Not disclosed" [ref=e2958]
+                - listitem [ref=e2959]:
+                  - generic [ref=e2960]: 
+                  - generic "Hybrid - Hyderabad" [ref=e2961]
+            - generic [ref=e2962]:
+              - generic [ref=e2963]: 
+              - text: "Required Skills: . 2-5 years of experience in Application Platform Engineering, DevOps, or Cloud EngineeringExperience: 2 - 5 YearsHands-on experience with Azure, Terraform, Git, Python, or Shell scriptingExperience with Kubernetes (K8s), microser..."
+            - list [ref=e2964]:
+              - listitem [ref=e2965]: Azure
+              - listitem [ref=e2966]: DevOps
+              - listitem [ref=e2967]: Postgresql
+              - listitem [ref=e2968]: Dbm
+              - listitem [ref=e2969]: SQL
+              - listitem [ref=e2970]: Azure DevOps.
+              - listitem [ref=e2971]: Git
+              - listitem [ref=e2972]: Terraform
+            - generic [ref=e2973]:
+              - generic [ref=e2975]: 1 Day Ago
+              - generic [ref=e2976] [cursor=pointer]:
+                - generic [ref=e2977]: 
+                - generic [ref=e2978]: save
+              - generic [ref=e2979] [cursor=pointer]:
+                - generic [ref=e2980]: 
+                - generic [ref=e2981]: Hide
+        - article [ref=e2982]:
+          - generic [ref=e2983]:
+            - generic [ref=e2985]:
+              - paragraph [ref=e2986]: Software Technologist I
+              - generic [ref=e2988]:
+                - generic "Philips" [ref=e2989]
+                - generic "Powered by Ambition Box" [ref=e2990]:
+                  - generic [ref=e2991]: 
+                  - generic [ref=e2992]: "3.8"
+                - link "1967 Reviews" [ref=e2993] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/philips-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e2994]:
+                - listitem [ref=e2995]:
+                  - generic [ref=e2996]: 
+                  - generic "4-9 Yrs" [ref=e2997]
+                - listitem [ref=e2998]:
+                  - generic [ref=e2999]: 
+                  - generic "Not disclosed" [ref=e3000]
+                - listitem [ref=e3001]:
+                  - generic [ref=e3002]: 
+                  - generic "Bengaluru" [ref=e3003]
+            - generic [ref=e3004]:
+              - generic [ref=e3005]: 
+              - text: Bachelor s degree in computer science, Software Engineering, Information Technology. 4+ years of experience in Software Development, Software Development Life Cycle (SDLC), troubleshooting production / deployment issuesHands on experience in Kuber...
+            - list [ref=e3006]:
+              - listitem [ref=e3007]: Computer science
+              - listitem [ref=e3008]: devops
+              - listitem [ref=e3009]: Agile development
+              - listitem [ref=e3010]: Cluster Management
+              - listitem [ref=e3011]: Software development life cycle
+              - listitem [ref=e3012]: Manager Technology
+              - listitem [ref=e3013]: Infrastructure
+              - listitem [ref=e3014]: Healthcare
+            - generic [ref=e3015]:
+              - generic [ref=e3017]: 6 Days Ago
+              - generic [ref=e3018] [cursor=pointer]:
+                - generic [ref=e3019]: 
+                - generic [ref=e3020]: save
+              - generic [ref=e3021] [cursor=pointer]:
+                - generic [ref=e3022]: 
+                - generic [ref=e3023]: Hide
+        - article [ref=e3024]:
+          - generic [ref=e3025]:
+            - generic [ref=e3027]:
+              - paragraph [ref=e3028]: Software Development Test Engineer - II
+              - generic [ref=e3030]:
+                - generic "Tekion" [ref=e3031]
+                - generic "Powered by Ambition Box" [ref=e3032]:
+                  - generic [ref=e3033]: 
+                  - generic [ref=e3034]: "3.6"
+                - link "476 Reviews" [ref=e3035] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/tekion-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e3036]:
+                - listitem [ref=e3037]:
+                  - generic [ref=e3038]: 
+                  - generic "3-8 Yrs" [ref=e3039]
+                - listitem [ref=e3040]:
+                  - generic [ref=e3041]: 
+                  - generic "Not disclosed" [ref=e3042]
+                - listitem [ref=e3043]:
+                  - generic [ref=e3044]: 
+                  - generic "Bengaluru" [ref=e3045]
+            - generic [ref=e3046]:
+              - generic [ref=e3047]: 
+              - text: "About Tekion: Positively disrupting an industry that has not seen any innovation in over 50 years, Tekion has challenged the paradigm with the first and fastest cloud-native automotive platform that includes the revolutionary Automotive Retail Clo..."
+            - list [ref=e3048]:
+              - listitem [ref=e3049]: Product management
+              - listitem [ref=e3050]: Root cause analysis
+              - listitem [ref=e3051]: Machine learning
+              - listitem [ref=e3052]: Reconciliation
+              - listitem [ref=e3053]: Data quality
+              - listitem [ref=e3054]: Customer engagement
+              - listitem [ref=e3055]: Operations
+              - listitem [ref=e3056]: Analytics
+            - generic [ref=e3057]:
+              - generic [ref=e3059]: 8 Days Ago
+              - generic [ref=e3060] [cursor=pointer]:
+                - generic [ref=e3061]: 
+                - generic [ref=e3062]: save
+              - generic [ref=e3063] [cursor=pointer]:
+                - generic [ref=e3064]: 
+                - generic [ref=e3065]: Hide
+        - article [ref=e3066]:
+          - generic [ref=e3068]: 
+          - generic [ref=e3069]:
+            - generic [ref=e3071]:
+              - paragraph [ref=e3072]: Release Engineer (Immediate joiners preferred)
+              - generic [ref=e3074]:
+                - generic "Healthedge" [ref=e3075]
+                - generic "Powered by Ambition Box" [ref=e3076]:
+                  - generic [ref=e3077]: 
+                  - generic [ref=e3078]: "3.1"
+                - link "88 Reviews" [ref=e3079] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/healthedge-technologies-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e3080]:
+                - listitem [ref=e3081]:
+                  - generic [ref=e3082]: 
+                  - generic "3-5 Yrs" [ref=e3083]
+                - listitem [ref=e3084]:
+                  - generic [ref=e3085]: 
+                  - generic "Not disclosed" [ref=e3086]
+                - listitem [ref=e3087]:
+                  - generic [ref=e3088]: 
+                  - generic "Hybrid - Bengaluru" [ref=e3089]
+            - generic [ref=e3090]:
+              - generic [ref=e3091]: 
+              - text: Associates degree or higher preferred high school diploma or equivalent required 3+ years of experience in release coordination, project coordination, or a similar roleHands-on experience with release management tools and automation frameworks
+            - list [ref=e3092]:
+              - listitem [ref=e3093]: Release
+              - listitem [ref=e3094]: Release Management
+              - listitem [ref=e3095]: Release Engineering
+              - listitem [ref=e3096]: Management
+              - listitem [ref=e3097]: Engineering
+            - generic [ref=e3098]:
+              - generic [ref=e3100]: 2 Days Ago
+              - generic [ref=e3101] [cursor=pointer]:
+                - generic [ref=e3102]: 
+                - generic [ref=e3103]: save
+              - generic [ref=e3104] [cursor=pointer]:
+                - generic [ref=e3105]: 
+                - generic [ref=e3106]: Hide
+        - article [ref=e3107]:
+          - generic [ref=e3109]: 
+          - generic [ref=e3110]:
+            - generic [ref=e3112]:
+              - paragraph [ref=e3113]: Test
+              - generic [ref=e3115]:
+                - generic "Maveric" [ref=e3116]
+                - generic "Powered by Ambition Box" [ref=e3117]:
+                  - generic [ref=e3118]: 
+                  - generic [ref=e3119]: "3.3"
+                - link "810 Reviews" [ref=e3120] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/maveric-systems-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e3121]:
+                - listitem [ref=e3122]:
+                  - generic [ref=e3123]: 
+                  - generic "3-6 Yrs" [ref=e3124]
+                - listitem [ref=e3125]:
+                  - generic [ref=e3126]: 
+                  - generic "10-15 Lacs PA" [ref=e3127]
+                - listitem [ref=e3128]:
+                  - generic [ref=e3129]: 
+                  - generic "Chennai, Bengaluru" [ref=e3130]
+            - generic [ref=e3131]:
+              - generic [ref=e3132]: 
+              - text: "Participate in UAT (User Acceptance Testing) sessions to validate product functionality. Job Requirements : . 3-6 years of experience in QA Automation Engineering or related field"
+            - list [ref=e3133]:
+              - listitem [ref=e3134]: Islamic banking
+              - listitem [ref=e3135]: STLC
+              - listitem [ref=e3136]: Regression
+              - listitem [ref=e3137]: UAT
+              - listitem [ref=e3138]: SIT
+              - listitem [ref=e3139]: Conventional
+              - listitem [ref=e3140]: Software testing
+            - generic [ref=e3141]:
+              - generic [ref=e3143]: 1 Day Ago
+              - generic [ref=e3144] [cursor=pointer]:
+                - generic [ref=e3145]: 
+                - generic [ref=e3146]: save
+              - generic [ref=e3147] [cursor=pointer]:
+                - generic [ref=e3148]: 
+                - generic [ref=e3149]: Hide
+        - article [ref=e3150]:
+          - generic [ref=e3152]: 
+          - generic [ref=e3153]:
+            - generic [ref=e3155]:
+              - paragraph [ref=e3156]: QA Engineer (Playwright)
+              - generic [ref=e3158]:
+                - generic "Equinix" [ref=e3159]
+                - generic "Powered by Ambition Box" [ref=e3160]:
+                  - generic [ref=e3161]: 
+                  - generic [ref=e3162]: "3.2"
+                - link "133 Reviews" [ref=e3163] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/equinix-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri&cvid=057b5f89b7014c01b8ae2da908c87ce2
+              - list [ref=e3164]:
+                - listitem [ref=e3165]:
+                  - generic [ref=e3166]: 
+                  - generic "3-8 Yrs" [ref=e3167]
+                - listitem [ref=e3168]:
+                  - generic [ref=e3169]: 
+                  - generic "Not disclosed" [ref=e3170]
+                - listitem [ref=e3171]:
+                  - generic [ref=e3172]: 
+                  - generic "Bengaluru" [ref=e3173]
+            - generic [ref=e3174]:
+              - generic [ref=e3175]: 
+              - text: Experience with GitHub, GitHub Actions, and CI / CD integration Bachelors degree in Computer Science, Computer Engineering, or related field Experience with Python for scripting or automation tasks (preferred) 3-8 years of experience in test autom...
+            - list [ref=e3176]:
+              - listitem [ref=e3177]: qa engineer
+              - listitem [ref=e3178]: python
+              - listitem [ref=e3179]: github
+              - listitem [ref=e3180]: technical leadership
+              - listitem [ref=e3181]: software testing
+              - listitem [ref=e3182]: test automation
+              - listitem [ref=e3183]: jmeter
+              - listitem [ref=e3184]: javascript
+            - generic [ref=e3185]:
+              - generic [ref=e3187]: 1 Day Ago
+              - generic [ref=e3188] [cursor=pointer]:
+                - generic [ref=e3189]: 
+                - generic [ref=e3190]: save
+              - generic [ref=e3191] [cursor=pointer]:
+                - generic [ref=e3192]: 
+                - generic [ref=e3193]: Hide
+      - generic [ref=e3194]:
+        - generic [ref=e3195]:
+          - generic [ref=e3196]: Add preferences to get matching jobs
+          - generic [ref=e3197]:
+            - generic [ref=e3198]:
+              - generic [ref=e3199]: Preferred job role
+              - emphasis [ref=e3200] [cursor=pointer]: 
+            - generic [ref=e3201]: Automation Test Engineer
+            - generic [ref=e3202]: SDET Engineer
+          - generic [ref=e3203]:
+            - generic [ref=e3204]:
+              - generic [ref=e3205]: Preferred work location
+              - emphasis [ref=e3206] [cursor=pointer]: 
+            - generic [ref=e3207]: Remote
+            - generic [ref=e3208]: Pune
+            - generic [ref=e3209]: Navi Mumbai
+            - generic [ref=e3210]: Mumbai
+            - generic [ref=e3211]: Hyderabad/Secunderabad
+            - generic [ref=e3212]: Chennai
+            - generic [ref=e3213]: Bangalore/Bengaluru
+          - generic [ref=e3214]:
+            - generic [ref=e3215]:
+              - generic [ref=e3216]: Preferred salary
+              - emphasis [ref=e3217] [cursor=pointer]: 
+            - generic [ref=e3218]: ₹ 12,00,000
+        - generic [ref=e3222] [cursor=pointer]: 
+    - paragraph [ref=e3224]:
+      - text: IEIL has taken all reasonable steps to ensure that information on this site is authentic. Applicants are advised to research bonafides of advertisers independently. IEIL shall not have any responsibility in this regard. We also recommend that you visit
+      - link "Security Guidelines" [ref=e3225] [cursor=pointer]:
+        - /url: https://my.naukri.com/faq/faq.php?pgid=9
+      - text: and
+      - link "Terms and Conditions" [ref=e3226] [cursor=pointer]:
+        - /url: https://www.naukri.com/termsconditions
+      - text: for more comprehensive information on this aspect.
+    - article
+  - contentinfo [ref=e3227]:
+    - generic [ref=e3230]:
+      - generic [ref=e3231]:
+        - link "Naukri.com" [ref=e3232] [cursor=pointer]:
+          - /url: https://www.naukri.com
+          - img "Naukri.com" [ref=e3233]
+        - generic [ref=e3234]:
+          - generic "Connect with us" [ref=e3235]
+          - link "Follow Naukri.com on Facebook" [ref=e3236] [cursor=pointer]:
+            - /url: https://www.facebook.com/Naukri
+            - img "Follow Naukri.com on Facebook" [ref=e3237]
+          - link "Follow Naukri.com on Instagram" [ref=e3238] [cursor=pointer]:
+            - /url: https://instagram.com/naukridotcom/
+            - img "Follow Naukri.com on Instagram" [ref=e3239]
+          - link "Follow Naukri.com on X" [ref=e3240] [cursor=pointer]:
+            - /url: https://twitter.com/naukri
+            - img "Follow Naukri.com on X" [ref=e3241]
+          - link "Follow Naukri.com on LinkedIn" [ref=e3242] [cursor=pointer]:
+            - /url: http://www.linkedin.com/company/naukri.com
+            - img "Follow Naukri.com on LinkedIn" [ref=e3243]
+      - list [ref=e3245]:
+        - listitem [ref=e3246]:
+          - link "About us" [ref=e3247] [cursor=pointer]:
+            - /url: https://infoedge.in
+        - listitem [ref=e3248]:
+          - link "Careers" [ref=e3249] [cursor=pointer]:
+            - /url: https://careers.infoedge.com/
+        - listitem [ref=e3250]:
+          - link "Employer home" [ref=e3251] [cursor=pointer]:
+            - /url: https://www.naukri.com/recruit/login
+        - listitem [ref=e3252]:
+          - link "Sitemap" [ref=e3253] [cursor=pointer]:
+            - /url: https://www.naukri.com/sitemap/sitemap.php
+        - listitem [ref=e3254]:
+          - link "Credits" [ref=e3255] [cursor=pointer]:
+            - /url: https://www.naukri.com/credits
+      - list [ref=e3257]:
+        - listitem [ref=e3258]:
+          - link "Help center" [ref=e3259] [cursor=pointer]:
+            - /url: https://www.naukri.com/faq/job-seeker?utm_source=footer
+        - listitem [ref=e3260]:
+          - link "Summons/Notices" [ref=e3261] [cursor=pointer]:
+            - /url: https://w5.naukri.com/summons-notices-form/
+        - listitem [ref=e3262]:
+          - link "Grievances" [ref=e3263] [cursor=pointer]:
+            - /url: https://w5.naukri.com/grievances-form/
+        - listitem [ref=e3264]:
+          - link "Report issue" [ref=e3265] [cursor=pointer]:
+            - /url: https://w5.naukri.com/fdbck/main/feedback.php?app_id=15
+      - list [ref=e3267]:
+        - listitem [ref=e3268]:
+          - link "Privacy policy" [ref=e3269] [cursor=pointer]:
+            - /url: https://www.naukri.com/privacypolicy
+        - listitem [ref=e3270]:
+          - link "Terms & conditions" [ref=e3271] [cursor=pointer]:
+            - /url: https://www.naukri.com/termsconditions
+        - listitem [ref=e3272]:
+          - link "Fraud alert" [ref=e3273] [cursor=pointer]:
+            - /url: https://www.naukri.com/imposter/report-fake-job-recruiter
+        - listitem [ref=e3274]:
+          - link "Trust & safety" [ref=e3275] [cursor=pointer]:
+            - /url: https://www.naukri.com/jobsearch/trust-safety
+      - generic [ref=e3276]:
+        - generic [ref=e3277]: Apply on the go
+        - generic [ref=e3278]: Get real-time job updates on our App
+        - generic [ref=e3279]:
+          - link "naukri app download" [ref=e3280] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=naukriApp.appModules.login&hl=en&utm_source=naukri&utm_medium=footer
+            - img "naukri app download" [ref=e3281]
+          - link "naukri app download" [ref=e3282] [cursor=pointer]:
+            - /url: https://itunes.apple.com/in/app/naukri.com-job-search/id482877505?mt=8
+            - img "naukri app download" [ref=e3283]
+    - generic [ref=e3285]:
+      - generic [ref=e3286]:
+        - link "Info Edge (India) Ltd." [ref=e3288] [cursor=pointer]:
+          - /url: http://infoedge.in
+          - img "Info Edge (India) Ltd." [ref=e3289]
+        - generic [ref=e3290]:
+          - generic [ref=e3291]: All trademarks are the property of their respective owners
+          - generic [ref=e3292]: All rights reserved © 2026 Info Edge (India) Ltd.
+      - generic [ref=e3293]: Our businesses
+      - list [ref=e3296]:
+        - listitem [ref=e3297]:
+          - link "99acres.com" [ref=e3299] [cursor=pointer]:
+            - /url: https://www.99acres.com/
+            - img "99acres.com" [ref=e3300]
+        - listitem [ref=e3301]:
+          - link "Jeevansathi.com" [ref=e3303] [cursor=pointer]:
+            - /url: https://www.jeevansathi.com/
+            - img "Jeevansathi.com" [ref=e3304]
+        - listitem [ref=e3305]:
+          - link "NaukriGulf.com" [ref=e3307] [cursor=pointer]:
+            - /url: https://www.naukrigulf.com/
+            - img "NaukriGulf.com" [ref=e3308]
+        - listitem [ref=e3309]:
+          - link "Shiksha.com" [ref=e3311] [cursor=pointer]:
+            - /url: https://www.shiksha.com/
+            - img "Shiksha.com" [ref=e3312]
+        - listitem [ref=e3313]:
+          - link "IIMJobs.com" [ref=e3315] [cursor=pointer]:
+            - /url: https://www.iimjobs.com
+            - img "IIMJobs.com" [ref=e3316]
+        - listitem [ref=e3317]:
+          - link "hirist.tech" [ref=e3319] [cursor=pointer]:
+            - /url: https://www.hirist.tech/
+            - img "hirist.tech" [ref=e3320]
+        - listitem [ref=e3321]:
+          - link "JobHai.com" [ref=e3323] [cursor=pointer]:
+            - /url: https://www.jobhai.com
+            - img "JobHai.com" [ref=e3324]
+        - listitem [ref=e3325]:
+          - link "Doselect.com" [ref=e3327] [cursor=pointer]:
+            - /url: https://doselect.com/
+            - img "Doselect.com" [ref=e3328]
+        - listitem [ref=e3329]:
+          - link "naukri.com/minis" [ref=e3331] [cursor=pointer]:
+            - /url: https://www.naukri.com/minis
+            - img "naukri.com/minis" [ref=e3332]
+        - listitem [ref=e3333]:
+          - link "codingninjas.com" [ref=e3335] [cursor=pointer]:
+            - /url: https://www.codingninjas.com/?utm_source=naukri&utm_medium=desktop-footer
+            - img "codingninjas.com" [ref=e3336]
+```
+
+# Test source
+
+```ts
+  1  | import { test, expect } from '@playwright/test';
+  2  | import { recommendedJobs } from '../pages/recommendedjobs';
+  3  | 
+  4  | test('Apply For Job', async ({ page }) => {
+  5  |   const recommendedJobsPage = new recommendedJobs(page);
+  6  |   await recommendedJobsPage.navigateToRecommendedJobs();
+  7  | 
+  8  |   await page.locator('button[aria-label="Search jobs here"]').click();
+  9  |   await page.locator('input[placeholder="Enter keyword / designation / companies"]').fill('qa engineer, automation tester, qa automation, automation engineer');
+> 10 |   await page.locator('span[class="ni-gnb-icn ni-gnb-icn-search"]"]').click();
+     |                                                                      ^ Error: locator.click: Unexpected token ""]"" while parsing css selector "span[class="ni-gnb-icn ni-gnb-icn-search"]"]". Did you mean to CSS.escape it?
+  11 |   await page.waitForTimeout(5000);
+  12 | 
+  13 |   const context = page.context();
+  14 |   const jobCards = page.locator("div[class=' row1']");
+  15 |   const count = await jobCards.count();
+  16 |   console.log(`Total job cards found: ${count}`);
+  17 | 
+  18 |   for (let i = 0; i < count; i++) {
+  19 |     const jobCard = jobCards.nth(i);
+  20 |     await jobCard.scrollIntoViewIfNeeded();
+  21 |     const [jobPage] = await Promise.all([context.waitForEvent('page'), jobCards.nth(i).click()]);
+  22 |     await jobPage.waitForLoadState();
+  23 |     const applyButton = jobPage.locator("(//button[@id='apply-button'])[1]").or(await jobPage.locator("(//button[@id='company-site-button'])[1]"));
+  24 |     const chatbot = jobPage.locator("div[class='chatbot_DrawerContentWrapper']");
+  25 |     const buttonText = (await applyButton.textContent())?.trim();
+  26 |     try {
+  27 |       if (buttonText === 'Apply') {
+  28 |         await applyButton.click();
+  29 |         await jobPage.waitForTimeout(5000);
+  30 |         if (!await chatbot.isVisible()) {
+  31 |           await expect(jobPage.locator("div[class='job-title-text']")).toContainText("Applied to");
+  32 |           console.log(`✅ Job ${i + 1} applied successfully`);
+  33 |           await jobPage.close();
+  34 |         }
+  35 |         await jobPage.close();
+  36 |       }
+  37 |       else {
+  38 |         console.log(`❌ Job ${i + 1} Please Apply Manually`);
+  39 |         await jobPage.close();
+  40 |       }
+  41 |     } catch (error) {
+  42 |       console.error(`❌ Error applying for Job ${i + 1}:`, error);
+  43 |       await jobPage.close();
+  44 |     }
+  45 |   }
+  46 | });
+  47 | 
+```
