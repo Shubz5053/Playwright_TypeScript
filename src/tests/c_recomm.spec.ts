@@ -2,13 +2,11 @@ import { test, expect } from "@playwright/test";
 import { recommendedJobs } from "../pages/recommendedjobs";
 import { JobDetailsPage } from "../pages/JobDetailsPage";
 
-import jobData from "../testData/jobDetails.json";
 
 test("Apply For Job", async ({ page }) => {
   const login = new recommendedJobs(page);
   await login.navigateToRecommendedJobs();
   const jobsPage = new recommendedJobs(page);
-  await jobsPage.searchJobs(jobData.searchKeyword);
   await page.waitForTimeout(5000);
   const context = page.context();
   const count = await jobsPage.getJobCount();
@@ -36,3 +34,5 @@ test("Apply For Job", async ({ page }) => {
     }
   }
 });
+
+

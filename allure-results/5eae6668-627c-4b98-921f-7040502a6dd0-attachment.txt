@@ -1,0 +1,12 @@
+Total Jobs : 22
+❌ Job 1 Please Apply Manually
+❌ Job 2 Please Apply Manually
+❌ Job 3 Please Apply Manually
+❌ Job 4 Please Apply Manually
+❌ Job 6 Please Apply Manually
+✅ Job 7 Applied Successfully
+❌ Job 8 Please Apply Manually
+❌ Job 9 Please Apply Manually
+✅ Job 11 Applied Successfully
+❌ Job 13 Please Apply Manually
+❌ Job 14 Please Apply Manually

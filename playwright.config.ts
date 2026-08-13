@@ -3,8 +3,8 @@ import { defineConfig, devices } from '@playwright/test';
 export default defineConfig({
   testDir: 'src/tests',
   retries: 0,
-  workers: process.env.CI ? 2 : 4,
-  timeout: 120000,
+  workers: 1,
+  timeout: 60000,
 
   use: {
     baseURL: "https://www.naukri.com/",
