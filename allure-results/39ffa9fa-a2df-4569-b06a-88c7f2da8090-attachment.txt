@@ -1,0 +1,40 @@
+Total Jobs : 21
+✅ Job 1 Applied Successfully
+Error on Job 2 locator.isVisible: Test ended.
+    at D:\Playwright_Framework\Playwright_TypeScript\src\tests\d_applyJobs.spec.ts:26:33 {
+  Symbol(step): {
+    location: {
+      file: 'D:\\Playwright_Framework\\Playwright_TypeScript\\src\\tests\\d_applyJobs.spec.ts',
+      line: 26,
+      column: 33
+    },
+    category: 'pw:api',
+    title: "Is visible locator('div[class=\\'chatbot_DrawerContentWrapper\\']')",
+    apiName: 'locator.isVisible',
+    params: {
+      selector: "div[class='chatbot_DrawerContentWrapper']",
+      strict: true
+    },
+    group: 'getter',
+    stepId: 'pw:api@57',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@57',
+      _title: "Is visible locator('div[class=\\'chatbot_DrawerContentWrapper\\']')",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1788971781241,
+    error: {
+      message: 'Error: locator.isVisible: Test ended.',
+      stack: 'Error: locator.isVisible: Test ended.\n' +
+        '    at D:\\Playwright_Framework\\Playwright_TypeScript\\src\\tests\\d_applyJobs.spec.ts:26:33',
+      cause: undefined
+    }
+  }
+}
