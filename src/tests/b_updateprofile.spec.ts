@@ -9,7 +9,7 @@ test('Upload Resume', async ({ page }) => {
   await updateProfilePage.uploadResume();
   const fileChooser = await fileChooserPromise;
   await fileChooser.setFiles(
-    "src/Files/Shubham_Sakhare_AutomationTester_Resume.pdf"
+    "src/Files/Shubham_Sakhare_SDET_Resume.pdf"
   );
 })
 

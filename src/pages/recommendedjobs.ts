@@ -6,6 +6,8 @@ export class recommendedJobs {
   readonly searchTextbox: Locator;
   readonly searchButton: Locator;
   readonly jobCards: Locator;
+  readonly recommendedFilter: Locator;
+  readonly datelist: Locator;
 
   constructor(page: Page) {
     this.page = page;
@@ -13,6 +15,16 @@ export class recommendedJobs {
     this.searchTextbox = page.locator('input[placeholder="Enter keyword / designation / companies"]');
     this.searchButton = page.locator("(//button[@type='button'])[1]");
     this.jobCards = page.locator("div[class=' row1']");
+    this.recommendedFilter = page.locator('button[id = "filter-sort"]');
+    this.datelist = page.locator('li[title = "Date"]');
+  }
+
+  async RecommendedFilter() {
+    await this.recommendedFilter.click();
+  }
+
+  async Datelist() {
+    await this.datelist.click();
   }
 
   async navigateToRecommendedJobs() {
